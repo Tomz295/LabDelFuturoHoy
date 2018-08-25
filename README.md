@@ -23,4 +23,5 @@ mostrado en un monitor y que se pueda interactuar por parte de un usuario.
 Se Utilizo codigo de las siguientes personas para realizar el proyecto.
 
 https://www.instructables.com/id/PS2-Keyboard-for-FPGA/
+
 https://www.fpga4fun.com/PongGame.html
