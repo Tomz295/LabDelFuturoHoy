@@ -1,0 +1,1826 @@
+Release 13.4 - xst O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Reading design: MainGame.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "MainGame.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "MainGame"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : MainGame
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ROMtest.v" in library work
+Compiling verilog file "StageBuilderSpriteless.v" in library work
+Module <genrom> compiled
+Compiling verilog file "draw_rectangle.v" in library work
+Module <StageBuilderSpriteless> compiled
+Compiling verilog file "StageBuilder.v" in library work
+Module <draw_rectangle> compiled
+Compiling verilog file "MobsModule.v" in library work
+Module <StageBuilder> compiled
+Compiling verilog file "Keyboard.v" in library work
+Module <MobsModule> compiled
+Compiling verilog file "hvsync_generator.v" in library work
+Module <Keyboard> compiled
+Compiling verilog file "DoorModule.v" in library work
+Module <hvsync_generator> compiled
+Compiling verilog file "MainGame.v" in library work
+Module <DoorModule> compiled
+Module <MainGame> compiled
+No errors in compilation
+Analysis of file <"MainGame.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <MainGame> in library <work>.
+
+Analyzing hierarchy for module <Keyboard> in library <work>.
+
+Analyzing hierarchy for module <hvsync_generator> in library <work>.
+
+Analyzing hierarchy for module <StageBuilder> in library <work> with parameters.
+	AW = "00000000000000000000000000000111"
+	DW = "00000000000000000000000000100000"
+
+Analyzing hierarchy for module <DoorModule> in library <work> with parameters.
+	AWdat = "00000000000000000000000000000101"
+	DWdat = "00000000000000000000000000011001"
+
+Analyzing hierarchy for module <StageBuilderSpriteless> in library <work> with parameters.
+	AW = "00000000000000000000000000001001"
+	DW = "00000000000000000000000000100000"
+
+Analyzing hierarchy for module <MobsModule> in library <work> with parameters.
+	AW = "00000000000000000000000000000111"
+	AWdat = "00000000000000000000000000000110"
+	DW = "00000000000000000000000000100000"
+	DWdat = "00000000000000000000000000001011"
+
+Analyzing hierarchy for module <draw_rectangle> in library <work>.
+
+Analyzing hierarchy for module <genrom> in library <work> with parameters.
+	AW = "00000000000000000000000000000111"
+	DW = "00000000000000000000000000100000"
+	NPOS = "00000000000000000000000010000000"
+	ROMFILE = "BlockSpritesR.list"
+
+Analyzing hierarchy for module <genrom> in library <work> with parameters.
+	AW = "00000000000000000000000000000111"
+	DW = "00000000000000000000000000100000"
+	NPOS = "00000000000000000000000010000000"
+	ROMFILE = "BlockSpritesG.list"
+
+Analyzing hierarchy for module <genrom> in library <work> with parameters.
+	AW = "00000000000000000000000000000111"
+	DW = "00000000000000000000000000100000"
+	NPOS = "00000000000000000000000010000000"
+	ROMFILE = "BlockSpritesB.list"
+
+Analyzing hierarchy for module <genrom> in library <work> with parameters.
+	AW = "00000000000000000000000000000101"
+	DW = "00000000000000000000000000011001"
+	NPOS = "00000000000000000000000000100000"
+	ROMFILE = "DoorsData.list"
+
+Analyzing hierarchy for module <genrom> in library <work> with parameters.
+	AW = "00000000000000000000000000001001"
+	DW = "00000000000000000000000000100000"
+	NPOS = "00000000000000000000001000000000"
+	ROMFILE = "StageData.list"
+
+Analyzing hierarchy for module <genrom> in library <work> with parameters.
+	AW = "00000000000000000000000000000110"
+	DW = "00000000000000000000000000001011"
+	NPOS = "00000000000000000000000001000000"
+	ROMFILE = "MobData.list"
+
+Analyzing hierarchy for module <genrom> in library <work> with parameters.
+	AW = "00000000000000000000000000000111"
+	DW = "00000000000000000000000000100000"
+	NPOS = "00000000000000000000000010000000"
+	ROMFILE = "MobSpritesR.list"
+
+Analyzing hierarchy for module <genrom> in library <work> with parameters.
+	AW = "00000000000000000000000000000111"
+	DW = "00000000000000000000000000100000"
+	NPOS = "00000000000000000000000010000000"
+	ROMFILE = "MobSpritesG.list"
+
+Analyzing hierarchy for module <genrom> in library <work> with parameters.
+	AW = "00000000000000000000000000000111"
+	DW = "00000000000000000000000000100000"
+	NPOS = "00000000000000000000000010000000"
+	ROMFILE = "MobSpritesB.list"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <MainGame>.
+Module <MainGame> is correct for synthesis.
+ 
+Analyzing module <Keyboard> in library <work>.
+Module <Keyboard> is correct for synthesis.
+ 
+Analyzing module <hvsync_generator> in library <work>.
+Module <hvsync_generator> is correct for synthesis.
+ 
+Analyzing module <StageBuilder> in library <work>.
+	AW = 32'sb00000000000000000000000000000111
+	DW = 32'sb00000000000000000000000000100000
+Module <StageBuilder> is correct for synthesis.
+ 
+Analyzing module <genrom.1> in library <work>.
+	AW = 32'sb00000000000000000000000000000111
+	DW = 32'sb00000000000000000000000000100000
+	NPOS = 32'sb00000000000000000000000010000000
+	ROMFILE = "BlockSpritesR.list"
+INFO:Xst:2546 - "ROMtest.v" line 48: reading initialization file "BlockSpritesR.list".
+Module <genrom.1> is correct for synthesis.
+ 
+Analyzing module <genrom.2> in library <work>.
+	AW = 32'sb00000000000000000000000000000111
+	DW = 32'sb00000000000000000000000000100000
+	NPOS = 32'sb00000000000000000000000010000000
+	ROMFILE = "BlockSpritesG.list"
+INFO:Xst:2546 - "ROMtest.v" line 48: reading initialization file "BlockSpritesG.list".
+Module <genrom.2> is correct for synthesis.
+ 
+Analyzing module <genrom.3> in library <work>.
+	AW = 32'sb00000000000000000000000000000111
+	DW = 32'sb00000000000000000000000000100000
+	NPOS = 32'sb00000000000000000000000010000000
+	ROMFILE = "BlockSpritesB.list"
+INFO:Xst:2546 - "ROMtest.v" line 48: reading initialization file "BlockSpritesB.list".
+Module <genrom.3> is correct for synthesis.
+ 
+Analyzing module <DoorModule> in library <work>.
+	AWdat = 32'sb00000000000000000000000000000101
+	DWdat = 32'sb00000000000000000000000000011001
+Module <DoorModule> is correct for synthesis.
+ 
+Analyzing module <genrom.4> in library <work>.
+	AW = 32'sb00000000000000000000000000000101
+	DW = 32'sb00000000000000000000000000011001
+	NPOS = 32'sb00000000000000000000000000100000
+	ROMFILE = "DoorsData.list"
+INFO:Xst:2546 - "ROMtest.v" line 48: reading initialization file "DoorsData.list".
+Module <genrom.4> is correct for synthesis.
+ 
+Analyzing module <StageBuilderSpriteless> in library <work>.
+	AW = 32'sb00000000000000000000000000001001
+	DW = 32'sb00000000000000000000000000100000
+Module <StageBuilderSpriteless> is correct for synthesis.
+ 
+Analyzing module <genrom.5> in library <work>.
+	AW = 32'sb00000000000000000000000000001001
+	DW = 32'sb00000000000000000000000000100000
+	NPOS = 32'sb00000000000000000000001000000000
+	ROMFILE = "StageData.list"
+INFO:Xst:2546 - "ROMtest.v" line 48: reading initialization file "StageData.list".
+Module <genrom.5> is correct for synthesis.
+ 
+Analyzing module <MobsModule> in library <work>.
+	AW = 32'sb00000000000000000000000000000111
+	AWdat = 32'sb00000000000000000000000000000110
+	DW = 32'sb00000000000000000000000000100000
+	DWdat = 32'sb00000000000000000000000000001011
+INFO:Xst:1607 - Contents of array <dataR> may be accessed with an index that does not cover the full array size.
+INFO:Xst:1607 - Contents of array <dataG> may be accessed with an index that does not cover the full array size.
+INFO:Xst:1607 - Contents of array <dataB> may be accessed with an index that does not cover the full array size.
+Module <MobsModule> is correct for synthesis.
+ 
+Analyzing module <genrom.6> in library <work>.
+	AW = 32'sb00000000000000000000000000000110
+	DW = 32'sb00000000000000000000000000001011
+	NPOS = 32'sb00000000000000000000000001000000
+	ROMFILE = "MobData.list"
+INFO:Xst:2546 - "ROMtest.v" line 48: reading initialization file "MobData.list".
+Module <genrom.6> is correct for synthesis.
+ 
+Analyzing module <genrom.7> in library <work>.
+	AW = 32'sb00000000000000000000000000000111
+	DW = 32'sb00000000000000000000000000100000
+	NPOS = 32'sb00000000000000000000000010000000
+	ROMFILE = "MobSpritesR.list"
+INFO:Xst:2546 - "ROMtest.v" line 48: reading initialization file "MobSpritesR.list".
+Module <genrom.7> is correct for synthesis.
+ 
+Analyzing module <genrom.8> in library <work>.
+	AW = 32'sb00000000000000000000000000000111
+	DW = 32'sb00000000000000000000000000100000
+	NPOS = 32'sb00000000000000000000000010000000
+	ROMFILE = "MobSpritesG.list"
+INFO:Xst:2546 - "ROMtest.v" line 48: reading initialization file "MobSpritesG.list".
+Module <genrom.8> is correct for synthesis.
+ 
+Analyzing module <genrom.9> in library <work>.
+	AW = 32'sb00000000000000000000000000000111
+	DW = 32'sb00000000000000000000000000100000
+	NPOS = 32'sb00000000000000000000000010000000
+	ROMFILE = "MobSpritesB.list"
+INFO:Xst:2546 - "ROMtest.v" line 48: reading initialization file "MobSpritesB.list".
+Module <genrom.9> is correct for synthesis.
+ 
+Analyzing module <draw_rectangle> in library <work>.
+Module <draw_rectangle> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Keyboard>.
+    Related source file is "Keyboard.v".
+    Found 1-bit register for signal <LED>.
+    Found 8-bit register for signal <CODEWORD>.
+    Found 4-bit register for signal <COUNT>.
+    Found 4-bit adder for signal <COUNT$addsub0000> created at line 94.
+    Found 12-bit up counter for signal <count_reading>.
+    Found 8-bit up counter for signal <DOWNCOUNTER>.
+    Found 1-bit register for signal <key_was_lifted>.
+    Found 8-bit comparator equal for signal <key_was_lifted$cmp_eq0000> created at line 158.
+    Found 8-bit comparator equal for signal <LED$cmp_eq0000> created at line 177.
+    Found 1-bit register for signal <PREVIOUS_STATE>.
+    Found 1-bit register for signal <read>.
+    Found 4-bit comparator greatequal for signal <read$cmp_ge0000> created at line 111.
+    Found 12-bit comparator less for signal <read$cmp_lt0000> created at line 111.
+    Found 1-bit xor2 for signal <read$xor0000> created at line 89.
+    Found 8-bit register for signal <real_codeword>.
+    Found 8-bit comparator not equal for signal <real_codeword$cmp_ne0000> created at line 158.
+    Found 11-bit register for signal <scan_code>.
+    Found 1-bit register for signal <scan_err>.
+    Found 1-bit xor9 for signal <scan_err$xor0000> created at line 102.
+    Found 1-bit register for signal <TRIG_ARR>.
+    Found 1-bit register for signal <TRIGGER>.
+    Found 8-bit comparator less for signal <TRIGGER$cmp_lt0000> created at line 67.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  38 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   6 Comparator(s).
+	inferred   1 Xor(s).
+Unit <Keyboard> synthesized.
+
+
+Synthesizing Unit <hvsync_generator>.
+    Related source file is "hvsync_generator.v".
+    Found 10-bit up counter for signal <CounterX>.
+    Found 9-bit up counter for signal <CounterY>.
+    Found 1-bit register for signal <inDisplayArea>.
+    Found 9-bit comparator less for signal <inDisplayArea$cmp_lt0000> created at line 32.
+    Found 1-bit register for signal <vga_HS>.
+    Found 1-bit register for signal <vga_VS>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   3 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <hvsync_generator> synthesized.
+
+
+Synthesizing Unit <draw_rectangle>.
+    Related source file is "draw_rectangle.v".
+    Found 10-bit comparator greatequal for signal <drawBool$cmp_ge0000> created at line 32.
+    Found 9-bit comparator greatequal for signal <drawBool$cmp_ge0001> created at line 32.
+    Found 10-bit comparator lessequal for signal <drawBool$cmp_le0000> created at line 32.
+    Found 9-bit comparator lessequal for signal <drawBool$cmp_le0001> created at line 32.
+    Summary:
+	inferred   4 Comparator(s).
+Unit <draw_rectangle> synthesized.
+
+
+Synthesizing Unit <genrom_1>.
+    Related source file is "ROMtest.v".
+WARNING:Xst:1781 - Signal <rom> is used but never assigned. Tied to default value.
+    Found 128x32-bit ROM for signal <$varindex0000> created at line 42.
+    Found 32-bit register for signal <data>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  32 D-type flip-flop(s).
+Unit <genrom_1> synthesized.
+
+
+Synthesizing Unit <genrom_2>.
+    Related source file is "ROMtest.v".
+WARNING:Xst:1781 - Signal <rom> is used but never assigned. Tied to default value.
+    Found 128x32-bit ROM for signal <$varindex0000> created at line 42.
+    Found 32-bit register for signal <data>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  32 D-type flip-flop(s).
+Unit <genrom_2> synthesized.
+
+
+Synthesizing Unit <genrom_3>.
+    Related source file is "ROMtest.v".
+WARNING:Xst:1781 - Signal <rom> is used but never assigned. Tied to default value.
+    Found 128x32-bit ROM for signal <$varindex0000> created at line 42.
+    Found 32-bit register for signal <data>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  32 D-type flip-flop(s).
+Unit <genrom_3> synthesized.
+
+
+Synthesizing Unit <genrom_4>.
+    Related source file is "ROMtest.v".
+WARNING:Xst:1781 - Signal <rom> is used but never assigned. Tied to default value.
+    Found 32x25-bit ROM for signal <$varindex0000> created at line 42.
+    Found 25-bit register for signal <data>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  25 D-type flip-flop(s).
+Unit <genrom_4> synthesized.
+
+
+Synthesizing Unit <genrom_5>.
+    Related source file is "ROMtest.v".
+WARNING:Xst:1781 - Signal <rom> is used but never assigned. Tied to default value.
+    Found 512x32-bit ROM for signal <$varindex0000> created at line 42.
+    Found 32-bit register for signal <data>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  32 D-type flip-flop(s).
+Unit <genrom_5> synthesized.
+
+
+Synthesizing Unit <genrom_6>.
+    Related source file is "ROMtest.v".
+WARNING:Xst:1781 - Signal <rom> is used but never assigned. Tied to default value.
+    Found 64x11-bit ROM for signal <$varindex0000> created at line 42.
+    Found 11-bit register for signal <data>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  11 D-type flip-flop(s).
+Unit <genrom_6> synthesized.
+
+
+Synthesizing Unit <genrom_7>.
+    Related source file is "ROMtest.v".
+WARNING:Xst:1781 - Signal <rom> is used but never assigned. Tied to default value.
+    Found 128x32-bit ROM for signal <$varindex0000> created at line 42.
+    Found 32-bit register for signal <data>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  32 D-type flip-flop(s).
+Unit <genrom_7> synthesized.
+
+
+Synthesizing Unit <genrom_8>.
+    Related source file is "ROMtest.v".
+WARNING:Xst:1781 - Signal <rom> is used but never assigned. Tied to default value.
+    Found 128x32-bit ROM for signal <$varindex0000> created at line 42.
+    Found 32-bit register for signal <data>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  32 D-type flip-flop(s).
+Unit <genrom_8> synthesized.
+
+
+Synthesizing Unit <genrom_9>.
+    Related source file is "ROMtest.v".
+WARNING:Xst:1781 - Signal <rom> is used but never assigned. Tied to default value.
+    Found 128x32-bit ROM for signal <$varindex0000> created at line 42.
+    Found 32-bit register for signal <data>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  32 D-type flip-flop(s).
+Unit <genrom_9> synthesized.
+
+
+Synthesizing Unit <DoorModule>.
+    Related source file is "DoorModule.v".
+WARNING:Xst:1305 - Output <drawB> is never assigned. Tied to value 0.
+WARNING:Xst:1305 - Output <drawG> is never assigned. Tied to value 0.
+WARNING:Xst:1305 - Output <drawR> is never assigned. Tied to value 1.
+WARNING:Xst:647 - Input <stageCode<10:4>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:653 - Signal <door_posX<31:10>> is used but never assigned. This sourceless signal will be automatically connected to value 0000000000000000000000.
+WARNING:Xst:653 - Signal <door_posX<4:0>> is used but never assigned. This sourceless signal will be automatically connected to value 00000.
+WARNING:Xst:646 - Signal <CounterY32Block<31:10>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <CounterY32Block<4:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <CounterX32Block<4:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 32-bit subtractor for signal <$sub0000> created at line 126.
+    Found 38-bit subtractor for signal <$sub0001> created at line 128.
+    Found 5-bit adder for signal <addr>.
+    Found 32-bit subtractor for signal <CounterX32Block>.
+    Found 32-bit adder for signal <CounterX32Block$addsub0000> created at line 116.
+    Found 32-bit adder for signal <CounterY32Block>.
+    Found 32-bit subtractor for signal <drawAny$addsub0000> created at line 126.
+    Found 27-bit comparator equal for signal <drawAny$cmp_eq0000> created at line 126.
+    Found 32-bit comparator greater for signal <drawAny$cmp_gt0000> created at line 126.
+    Found 32-bit comparator less for signal <drawAny$cmp_lt0000> created at line 126.
+    Found 32-bit subtractor for signal <resetPulse$addsub0000> created at line 128.
+    Found 32-bit adder for signal <resetPulse$addsub0001> created at line 128.
+    Found 32-bit subtractor for signal <resetPulse$addsub0002> created at line 128.
+    Found 32-bit comparator greatequal for signal <resetPulse$cmp_ge0000> created at line 128.
+    Found 39-bit comparator greatequal for signal <resetPulse$cmp_ge0001> created at line 128.
+    Found 32-bit comparator lessequal for signal <resetPulse$cmp_le0000> created at line 128.
+    Found 38-bit comparator lessequal for signal <resetPulse$cmp_le0001> created at line 128.
+    Found 33-bit subtractor for signal <resetPulse$sub0000> created at line 128.
+    Found 33-bit subtractor for signal <resetPulse$sub0002> created at line 128.
+    Found 39-bit subtractor for signal <resetPulse$sub0003> created at line 128.
+    Found 32-bit subtractor for signal <resetPulse$sub0004> created at line 128.
+    Summary:
+	inferred  14 Adder/Subtractor(s).
+	inferred   7 Comparator(s).
+Unit <DoorModule> synthesized.
+
+
+Synthesizing Unit <StageBuilderSpriteless>.
+    Related source file is "StageBuilderSpriteless.v".
+WARNING:Xst:646 - Signal <data_index<31:9>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <aux_data> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <CounterY32Block<31:22>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <CounterY32Block<4:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <CounterX32Block<31:22>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <CounterX32Block<4:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit register for signal <DrawAny>.
+    Found 1-bit 32-to-1 multiplexer for signal <$varindex0000> created at line 55.
+    Found 9-bit adder for signal <addr>.
+    Found 32-bit adder for signal <CounterX32Block>.
+    Found 32-bit adder for signal <CounterY32Block>.
+    Found 12-bit comparator greater for signal <DrawAny$cmp_gt0000> created at line 51.
+    Found 12-bit comparator greater for signal <DrawAny$cmp_gt0001> created at line 51.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <StageBuilderSpriteless> synthesized.
+
+
+Synthesizing Unit <MobsModule>.
+    Related source file is "MobsModule.v".
+WARNING:Xst:647 - Input <mobNumber<10:6>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <drawSpawn> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <CounterXFixed<31:5>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit register for signal <DrawB>.
+    Found 1-bit register for signal <DrawG>.
+    Found 1-bit register for signal <DrawR>.
+    Found 33-bit subtractor for signal <$sub0000> created at line 116.
+    Found 33-bit subtractor for signal <$sub0001> created at line 124.
+    Found 1-bit 32-to-1 multiplexer for signal <$varindex0000> created at line 173.
+    Found 1-bit 32-to-1 multiplexer for signal <$varindex0001> created at line 174.
+    Found 1-bit 32-to-1 multiplexer for signal <$varindex0002> created at line 175.
+    Found 32-bit adder carry out for signal <add0000$addsub0000> created at line 108.
+    Found 32-bit adder carry out for signal <add0001$addsub0000> created at line 112.
+    Found 32-bit adder carry out for signal <add0002$addsub0000> created at line 120.
+    Found 32-bit adder carry out for signal <add0003$addsub0000> created at line 124.
+    Found 6-bit adder for signal <addr>.
+    Found 32-bit up counter for signal <aux_clock1>.
+    Found 32-bit up counter for signal <clock_aux0>.
+    Found 32-bit register for signal <CounterXFixed>.
+    Found 7-bit adder for signal <CounterXFixed$sub0000> created at line 166.
+    Found 5-bit subtractor for signal <CounterXSprite>.
+    Found 32-bit adder for signal <CounterXSprite$add0000> created at line 158.
+    Found 5-bit subtractor for signal <CounterYSprite>.
+    Found 32-bit adder for signal <CounterYSprite$add0000> created at line 157.
+    Found 11-bit register for signal <current_stage>.
+    Found 11-bit comparator equal for signal <current_stage$cmp_eq0000> created at line 87.
+    Found 5-bit register for signal <currentStageCode>.
+    Found 32-bit comparator greatequal for signal <drawMob$cmp_ge0000> created at line 159.
+    Found 33-bit comparator greatequal for signal <drawMob$cmp_ge0001> created at line 159.
+    Found 32-bit comparator lessequal for signal <drawMob$cmp_le0000> created at line 159.
+    Found 33-bit comparator less for signal <drawMob$cmp_lt0000> created at line 159.
+    Found 1-bit register for signal <floor_check0>.
+    Found 33-bit comparator equal for signal <floor_check0$cmp_eq0000> created at line 108.
+    Found 32-bit comparator equal for signal <floor_check0$cmp_eq0001> created at line 108.
+    Found 1-bit register for signal <floor_check1>.
+    Found 33-bit comparator equal for signal <floor_check1$cmp_eq0000> created at line 112.
+    Found 32-bit up counter for signal <jump_clock1>.
+    Found 33-bit comparator less for signal <jump_clock1$cmp_lt0000> created at line 205.
+    Found 33-bit comparator less for signal <jump_clock1$cmp_lt0001> created at line 205.
+    Found 1-bit register for signal <left_check>.
+    Found 32-bit comparator equal for signal <left_check$cmp_eq0000> created at line 116.
+    Found 33-bit comparator equal for signal <left_check$cmp_eq0001> created at line 116.
+    Found 1-bit register for signal <mob_alive>.
+    Found 11-bit comparator not equal for signal <mob_alive$cmp_ne0000> created at line 87.
+    Found 1-bit register for signal <mob_jump>.
+    Found 33-bit comparator greatequal for signal <mob_jump$cmp_ge0000> created at line 205.
+    Found 33-bit comparator greatequal for signal <mob_jump$cmp_ge0001> created at line 205.
+    Found 33-bit comparator greatequal for signal <mob_jump$cmp_ge0002> created at line 210.
+    Found 33-bit comparator greatequal for signal <mob_jump$cmp_ge0003> created at line 210.
+    Found 1-bit register for signal <mob_lookingleft>.
+    Found 32-bit comparator greatequal for signal <mob_lookingleft$cmp_ge0000> created at line 229.
+    Found 32-bit comparator greater for signal <mob_lookingleft$cmp_gt0000> created at line 224.
+    Found 32-bit comparator lessequal for signal <mob_lookingleft$cmp_le0000> created at line 224.
+    Found 32-bit comparator greatequal for signal <mob_onScreen$cmp_ge0000> created at line 80.
+    Found 32-bit comparator greatequal for signal <mob_onScreen$cmp_ge0001> created at line 80.
+    Found 32-bit comparator lessequal for signal <mob_onScreen$cmp_le0000> created at line 80.
+    Found 32-bit comparator lessequal for signal <mob_onScreen$cmp_le0001> created at line 80.
+    Found 32-bit register for signal <mob_posX>.
+    Found 32-bit addsub for signal <mob_posX$addsub0000>.
+    Found 32-bit comparator greatequal for signal <mob_posX$cmp_ge0000> created at line 229.
+    Found 32-bit comparator greater for signal <mob_posX$cmp_gt0000> created at line 224.
+    Found 32-bit comparator lessequal for signal <mob_posX$cmp_le0000> created at line 224.
+    Found 32-bit register for signal <mob_posY>.
+    Found 32-bit addsub for signal <mob_posY$addsub0000>.
+    Found 32-bit subtractor for signal <mob_realposX$sub0000> created at line 75.
+    Found 32-bit subtractor for signal <mob_realposY>.
+    Found 32-bit comparator greatequal for signal <mob_spawn_onScreen$cmp_ge0000> created at line 71.
+    Found 32-bit comparator greatequal for signal <mob_spawn_onScreen$cmp_ge0001> created at line 71.
+    Found 32-bit comparator lessequal for signal <mob_spawn_onScreen$cmp_le0000> created at line 71.
+    Found 32-bit comparator lessequal for signal <mob_spawn_onScreen$cmp_le0001> created at line 71.
+    Found 32-bit subtractor for signal <mob_spawnposX>.
+    Found 32-bit subtractor for signal <mob_spawnposY>.
+    Found 32-bit up counter for signal <movement_clock1>.
+    Found 33-bit comparator greatequal for signal <old_mob_jump_15$cmp_ge0000> created at line 198.
+    Found 33-bit comparator greatequal for signal <old_mob_jump_15$cmp_ge0001> created at line 198.
+    Found 1-bit register for signal <right_check>.
+    Found 33-bit comparator equal for signal <right_check$cmp_eq0000> created at line 120.
+    Found 11-bit comparator equal for signal <sameStage>.
+    Found 7-bit adder for signal <sprite_addr>.
+    Found 7-bit adder for signal <sprite_addr$addsub0000> created at line 160.
+    Found 1-bit register for signal <sprite_number>.
+    Found 33-bit comparator greatequal for signal <sprite_number$cmp_ge0000> created at line 42.
+    Found 1-bit register for signal <top_check>.
+    Found 33-bit comparator equal for signal <top_check$cmp_eq0000> created at line 124.
+    Found 33-bit comparator equal for signal <top_check$cmp_eq0001> created at line 124.
+    Summary:
+	inferred   4 Counter(s).
+	inferred 124 D-type flip-flop(s).
+	inferred  22 Adder/Subtractor(s).
+	inferred  38 Comparator(s).
+	inferred   3 Multiplexer(s).
+Unit <MobsModule> synthesized.
+
+
+Synthesizing Unit <StageBuilder>.
+    Related source file is "StageBuilder.v".
+    Found 1-bit register for signal <DrawRed>.
+    Found 1-bit register for signal <DrawGreen>.
+    Found 1-bit register for signal <DrawBlue>.
+    Found 1-bit 32-to-1 multiplexer for signal <$varindex0000> created at line 75.
+    Found 1-bit 32-to-1 multiplexer for signal <$varindex0001> created at line 76.
+    Found 1-bit 32-to-1 multiplexer for signal <$varindex0002> created at line 77.
+    Found 7-bit adder for signal <addr>.
+    Found 5-bit subtractor for signal <CounterXBlockSprite>.
+    Found 5-bit adder for signal <CounterXBlockSprite$addsub0000> created at line 69.
+    Found 5-bit adder for signal <CounterYBlockSprite>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred   3 Multiplexer(s).
+Unit <StageBuilder> synthesized.
+
+
+Synthesizing Unit <MainGame>.
+    Related source file is "MainGame.v".
+WARNING:Xst:646 - Signal <movedown> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <drawR2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <drawR1> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <drawG2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <drawG1> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <drawB2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <drawB1> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <Pkey> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit register for signal <vga_blue>.
+    Found 1-bit register for signal <vga_green>.
+    Found 1-bit register for signal <vga_red>.
+    Found 32-bit subtractor for signal <$sub0000> created at line 294.
+    Found 32-bit subtractor for signal <$sub0001> created at line 302.
+    Found 32-bit subtractor for signal <$sub0002> created at line 304.
+    Found 32-bit adder for signal <AUX_CounterY_5$add0000> created at line 291.
+    Found 32-bit up counter for signal <auxclock1>.
+    Found 33-bit comparator greatequal for signal <auxclock1$cmp_ge0000> created at line 47.
+    Found 32-bit up counter for signal <auxclockjump0>.
+    Found 33-bit comparator greatequal for signal <auxclockjump0$cmp_ge0000> created at line 73.
+    Found 32-bit up counter for signal <auxclockjump1>.
+    Found 32-bit adder for signal <auxclockjump1$addsub0000> created at line 354.
+    Found 32-bit comparator greatequal for signal <auxclockjump1$cmp_ge0000> created at line 354.
+    Found 32-bit up counter for signal <auxclocknormal>.
+    Found 33-bit comparator greatequal for signal <auxclocknormal$cmp_ge0000> created at line 60.
+    Found 33-bit comparator greater for signal <char_bottomlimit>.
+    Found 32-bit register for signal <char_posY>.
+    Found 32-bit subtractor for signal <char_posY$share0000>.
+    Found 33-bit comparator less for signal <char_toplimit>.
+    Found 1-bit register for signal <char_YspeedDirection>.
+    Found 33-bit comparator greater for signal <char_YspeedDirection$cmp_gt0000> created at line 323.
+    Found 32-bit register for signal <char_YspeedModule>.
+    Found 32-bit addsub for signal <char_YspeedModule$addsub0000>.
+    Found 33-bit comparator greatequal for signal <char_YspeedModule$cmp_ge0000> created at line 339.
+    Found 33-bit comparator lessequal for signal <char_YspeedModule$cmp_le0000> created at line 323.
+    Found 32-bit 4-to-1 multiplexer for signal <char_YspeedModule$mux0000>.
+    Found 1-bit register for signal <clk_25>.
+    Found 1-bit register for signal <clk_chargravity>.
+    Found 1-bit register for signal <clk_charjump>.
+    Found 1-bit register for signal <clk_maxspeed>.
+    Found 1-bit register for signal <clk_normalspeed>.
+    Found 1-bit register for signal <looking_left>.
+    Found 1-bit register for signal <res_aux01>.
+    Found 32-bit comparator equal for signal <res_aux01$cmp_eq0000> created at line 217.
+    Found 32-bit comparator equal for signal <res_aux01$cmp_eq0001> created at line 217.
+    Found 32-bit comparator equal for signal <res_aux01$cmp_eq0002> created at line 217.
+    Found 7-bit comparator greatequal for signal <res_aux01$cmp_ge0000> created at line 215.
+    Found 32-bit register for signal <res_char_posY>.
+    Found 7-bit register for signal <res_invulnerability>.
+    Found 7-bit adder for signal <res_invulnerability$addsub0000> created at line 209.
+    Found 7-bit comparator lessequal for signal <res_invulnerability$cmp_le0000> created at line 207.
+    Found 32-bit register for signal <res_stage_posX>.
+    Found 32-bit register for signal <res_stage_posY>.
+    Found 32-bit register for signal <stage_posX>.
+    Found 32-bit addsub for signal <stage_posX$addsub0000>.
+    Found 32-bit updown counter for signal <stage_posY>.
+    Found 33-bit comparator greater for signal <stage_posY$cmp_gt0000> created at line 261.
+    Found 5-bit register for signal <StageCode>.
+    Found 10-bit comparator greatequal for signal <sword_rectangle_left$cmp_ge0000> created at line 436.
+    Found 33-bit comparator greatequal for signal <sword_rectangle_left$cmp_ge0001> created at line 436.
+    Found 10-bit comparator lessequal for signal <sword_rectangle_left$cmp_le0000> created at line 436.
+    Found 33-bit comparator lessequal for signal <sword_rectangle_left$cmp_le0001> created at line 436.
+    Found 33-bit subtractor for signal <sword_rectangle_left$sub0000> created at line 436.
+    Found 33-bit subtractor for signal <sword_rectangle_left$sub0001> created at line 436.
+    Found 10-bit comparator greatequal for signal <sword_rectangle_right$cmp_ge0000> created at line 437.
+    Found 10-bit comparator lessequal for signal <sword_rectangle_right$cmp_le0000> created at line 437.
+    Found 1-bit register for signal <sword_swing>.
+    Found 11-bit comparator lessequal for signal <sword_swing$cmp_le0000> created at line 422.
+    Found 11-bit comparator less for signal <sword_swinging>.
+    Found 11-bit register for signal <sword_swinging_clock>.
+    Found 11-bit adder for signal <sword_swinging_clock$addsub0000> created at line 426.
+    Found 11-bit comparator greater for signal <sword_swinging_clock$cmp_gt0000> created at line 422.
+    Summary:
+	inferred   5 Counter(s).
+	inferred 227 D-type flip-flop(s).
+	inferred  15 Adder/Subtractor(s).
+	inferred  24 Comparator(s).
+	inferred  32 Multiplexer(s).
+Unit <MainGame> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+WARNING:Xst:524 - All outputs of the instance <square32by32> of the block <draw_rectangle> are unconnected in block <MobsModule>.
+   This instance will be removed from the design along with all underlying logic
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 32
+ 128x32-bit ROM                                        : 15
+ 32x25-bit ROM                                         : 2
+ 512x32-bit ROM                                        : 11
+ 64x11-bit ROM                                         : 4
+# Adders/Subtractors                                   : 175
+ 11-bit adder                                          : 1
+ 32-bit adder                                          : 38
+ 32-bit adder carry out                                : 16
+ 32-bit addsub                                         : 10
+ 32-bit subtractor                                     : 32
+ 33-bit subtractor                                     : 14
+ 38-bit subtractor                                     : 2
+ 39-bit subtractor                                     : 2
+ 4-bit adder                                           : 6
+ 5-bit adder                                           : 15
+ 5-bit subtractor                                      : 9
+ 6-bit adder                                           : 4
+ 7-bit adder                                           : 14
+ 9-bit adder                                           : 11
+ 9-bit subtractor                                      : 1
+# Counters                                             : 35
+ 10-bit up counter                                     : 1
+ 12-bit up counter                                     : 6
+ 32-bit up counter                                     : 20
+ 32-bit updown counter                                 : 1
+ 8-bit up counter                                      : 6
+ 9-bit up counter                                      : 1
+# Registers                                            : 204
+ 1-bit register                                        : 119
+ 11-bit register                                       : 15
+ 25-bit register                                       : 2
+ 32-bit register                                       : 44
+ 4-bit register                                        : 6
+ 5-bit register                                        : 5
+ 7-bit register                                        : 1
+ 8-bit register                                        : 12
+# Comparators                                          : 253
+ 10-bit comparator greatequal                          : 3
+ 10-bit comparator lessequal                           : 3
+ 11-bit comparator equal                               : 8
+ 11-bit comparator greater                             : 1
+ 11-bit comparator less                                : 1
+ 11-bit comparator lessequal                           : 1
+ 11-bit comparator not equal                           : 4
+ 12-bit comparator greater                             : 22
+ 12-bit comparator less                                : 6
+ 27-bit comparator equal                               : 2
+ 32-bit comparator equal                               : 11
+ 32-bit comparator greatequal                          : 31
+ 32-bit comparator greater                             : 10
+ 32-bit comparator less                                : 2
+ 32-bit comparator lessequal                           : 30
+ 33-bit comparator equal                               : 24
+ 33-bit comparator greatequal                          : 37
+ 33-bit comparator greater                             : 3
+ 33-bit comparator less                                : 13
+ 33-bit comparator lessequal                           : 2
+ 38-bit comparator lessequal                           : 2
+ 39-bit comparator greatequal                          : 2
+ 4-bit comparator greatequal                           : 6
+ 7-bit comparator greatequal                           : 1
+ 7-bit comparator lessequal                            : 1
+ 8-bit comparator equal                                : 12
+ 8-bit comparator less                                 : 6
+ 8-bit comparator not equal                            : 6
+ 9-bit comparator greatequal                           : 1
+ 9-bit comparator less                                 : 1
+ 9-bit comparator lessequal                            : 1
+# Multiplexers                                         : 27
+ 1-bit 32-to-1 multiplexer                             : 26
+ 32-bit 4-to-1 multiplexer                             : 1
+# Xors                                                 : 12
+ 1-bit xor2                                            : 6
+ 1-bit xor9                                            : 6
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <downKeyPress> is unconnected in block <MainGame>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <PKeyPress> is unconnected in block <MainGame>.
+   It will be removed from the design.
+WARNING:Xst:1293 - FF/Latch <current_stage_10> has a constant value of 0 in block <mob3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <current_stage_9> has a constant value of 0 in block <mob3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <current_stage_8> has a constant value of 0 in block <mob3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <current_stage_7> has a constant value of 0 in block <mob3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <current_stage_6> has a constant value of 0 in block <mob3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <current_stage_5> has a constant value of 0 in block <mob3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <current_stage_10> has a constant value of 0 in block <mob2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <current_stage_9> has a constant value of 0 in block <mob2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <current_stage_8> has a constant value of 0 in block <mob2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <current_stage_7> has a constant value of 0 in block <mob2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <current_stage_6> has a constant value of 0 in block <mob2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <current_stage_5> has a constant value of 0 in block <mob2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <current_stage_10> has a constant value of 0 in block <mob1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <current_stage_9> has a constant value of 0 in block <mob1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <current_stage_8> has a constant value of 0 in block <mob1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <current_stage_7> has a constant value of 0 in block <mob1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <current_stage_6> has a constant value of 0 in block <mob1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <current_stage_5> has a constant value of 0 in block <mob1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <current_stage_10> has a constant value of 0 in block <mob0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <current_stage_9> has a constant value of 0 in block <mob0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <current_stage_8> has a constant value of 0 in block <mob0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <current_stage_7> has a constant value of 0 in block <mob0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <current_stage_6> has a constant value of 0 in block <mob0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <current_stage_5> has a constant value of 0 in block <mob0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <CounterXFixed_5> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_6> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_7> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_8> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_9> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_10> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_11> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_12> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_13> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_14> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_15> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_16> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_17> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_18> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_19> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_20> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_21> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_22> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_23> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_24> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_25> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_26> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_27> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_28> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_29> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_30> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_31> of sequential type is unconnected in block <mob0>.
+WARNING:Xst:2677 - Node <CounterXFixed_5> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_6> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_7> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_8> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_9> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_10> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_11> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_12> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_13> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_14> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_15> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_16> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_17> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_18> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_19> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_20> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_21> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_22> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_23> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_24> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_25> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_26> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_27> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_28> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_29> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_30> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_31> of sequential type is unconnected in block <mob1>.
+WARNING:Xst:2677 - Node <CounterXFixed_5> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_6> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_7> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_8> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_9> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_10> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_11> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_12> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_13> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_14> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_15> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_16> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_17> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_18> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_19> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_20> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_21> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_22> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_23> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_24> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_25> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_26> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_27> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_28> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_29> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_30> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_31> of sequential type is unconnected in block <mob2>.
+WARNING:Xst:2677 - Node <CounterXFixed_5> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_6> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_7> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_8> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_9> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_10> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_11> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_12> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_13> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_14> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_15> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_16> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_17> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_18> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_19> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_20> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_21> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_22> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_23> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_24> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_25> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_26> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_27> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_28> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_29> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_30> of sequential type is unconnected in block <mob3>.
+WARNING:Xst:2677 - Node <CounterXFixed_31> of sequential type is unconnected in block <mob3>.
+
+Synthesizing (advanced) Unit <genrom_1>.
+INFO:Xst:3044 - The ROM <Mrom__varindex0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <data>.
+INFO:Xst:3225 - The RAM <Mrom__varindex0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 128-word x 32-bit                   |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <addr>          |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <data>          |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <genrom_1> synthesized (advanced).
+
+Synthesizing (advanced) Unit <genrom_2>.
+INFO:Xst:3045 - The ROM description <Mrom__varindex0000> will be implemented on LUTs because the limited number of device block RAMs. If you want to be implemented as block RAM, please select a larger device.
+Unit <genrom_2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <genrom_3>.
+INFO:Xst:3045 - The ROM description <Mrom__varindex0000> will be implemented on LUTs because the limited number of device block RAMs. If you want to be implemented as block RAM, please select a larger device.
+Unit <genrom_3> synthesized (advanced).
+
+Synthesizing (advanced) Unit <genrom_4>.
+INFO:Xst:3045 - The ROM description <Mrom__varindex0000> will be implemented on LUTs because the limited number of device block RAMs. If you want to be implemented as block RAM, please select a larger device.
+Unit <genrom_4> synthesized (advanced).
+
+Synthesizing (advanced) Unit <genrom_5>.
+INFO:Xst:3044 - The ROM <Mrom__varindex0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <data>.
+INFO:Xst:3225 - The RAM <Mrom__varindex0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 512-word x 32-bit                   |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <addr>          |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <data>          |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <genrom_5> synthesized (advanced).
+
+Synthesizing (advanced) Unit <genrom_6>.
+INFO:Xst:3045 - The ROM description <Mrom__varindex0000> will be implemented on LUTs because the limited number of device block RAMs. If you want to be implemented as block RAM, please select a larger device.
+Unit <genrom_6> synthesized (advanced).
+
+Synthesizing (advanced) Unit <genrom_7>.
+INFO:Xst:3044 - The ROM <Mrom__varindex0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <data>.
+INFO:Xst:3225 - The RAM <Mrom__varindex0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 128-word x 32-bit                   |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <addr>          |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <data>          |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <genrom_7> synthesized (advanced).
+
+Synthesizing (advanced) Unit <genrom_8>.
+INFO:Xst:3044 - The ROM <Mrom__varindex0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <data>.
+INFO:Xst:3225 - The RAM <Mrom__varindex0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 128-word x 32-bit                   |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <addr>          |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <data>          |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <genrom_8> synthesized (advanced).
+
+Synthesizing (advanced) Unit <genrom_9>.
+INFO:Xst:3045 - The ROM description <Mrom__varindex0000> will be implemented on LUTs because the limited number of device block RAMs. If you want to be implemented as block RAM, please select a larger device.
+Unit <genrom_9> synthesized (advanced).
+WARNING:Xst:2677 - Node <CounterXFixed_5> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_6> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_7> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_8> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_9> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_10> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_11> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_12> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_13> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_14> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_15> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_16> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_17> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_18> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_19> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_20> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_21> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_22> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_23> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_24> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_25> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_26> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_27> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_28> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_29> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_30> of sequential type is unconnected in block <MobsModule>.
+WARNING:Xst:2677 - Node <CounterXFixed_31> of sequential type is unconnected in block <MobsModule>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 20
+ 128x32-bit single-port block RAM                      : 9
+ 512x32-bit single-port block RAM                      : 11
+# ROMs                                                 : 12
+ 128x32-bit ROM                                        : 6
+ 32x25-bit ROM                                         : 2
+ 64x11-bit ROM                                         : 4
+# Adders/Subtractors                                   : 175
+ 10-bit adder                                          : 2
+ 11-bit adder                                          : 1
+ 22-bit adder                                          : 22
+ 32-bit adder                                          : 6
+ 32-bit adder carry out                                : 16
+ 32-bit addsub                                         : 10
+ 32-bit subtractor                                     : 32
+ 33-bit subtractor                                     : 14
+ 38-bit subtractor                                     : 2
+ 39-bit subtractor                                     : 2
+ 4-bit adder                                           : 6
+ 5-bit adder                                           : 23
+ 5-bit subtractor                                      : 9
+ 6-bit adder                                           : 4
+ 7-bit adder                                           : 14
+ 9-bit adder                                           : 11
+ 9-bit subtractor                                      : 1
+# Counters                                             : 35
+ 10-bit up counter                                     : 1
+ 12-bit up counter                                     : 6
+ 32-bit up counter                                     : 20
+ 32-bit updown counter                                 : 1
+ 8-bit up counter                                      : 6
+ 9-bit up counter                                      : 1
+# Registers                                            : 1146
+ Flip-Flops                                            : 1146
+# Comparators                                          : 253
+ 10-bit comparator greatequal                          : 3
+ 10-bit comparator lessequal                           : 3
+ 11-bit comparator equal                               : 8
+ 11-bit comparator greater                             : 1
+ 11-bit comparator less                                : 1
+ 11-bit comparator lessequal                           : 1
+ 11-bit comparator not equal                           : 4
+ 12-bit comparator greater                             : 22
+ 12-bit comparator less                                : 6
+ 27-bit comparator equal                               : 2
+ 32-bit comparator equal                               : 11
+ 32-bit comparator greatequal                          : 31
+ 32-bit comparator greater                             : 10
+ 32-bit comparator less                                : 2
+ 32-bit comparator lessequal                           : 30
+ 33-bit comparator equal                               : 24
+ 33-bit comparator greatequal                          : 37
+ 33-bit comparator greater                             : 3
+ 33-bit comparator less                                : 13
+ 33-bit comparator lessequal                           : 2
+ 38-bit comparator lessequal                           : 2
+ 39-bit comparator greatequal                          : 2
+ 4-bit comparator greatequal                           : 6
+ 7-bit comparator greatequal                           : 1
+ 7-bit comparator lessequal                            : 1
+ 8-bit comparator equal                                : 12
+ 8-bit comparator less                                 : 6
+ 8-bit comparator not equal                            : 6
+ 9-bit comparator greatequal                           : 1
+ 9-bit comparator less                                 : 1
+ 9-bit comparator lessequal                            : 1
+# Multiplexers                                         : 27
+ 1-bit 32-to-1 multiplexer                             : 26
+ 32-bit 4-to-1 multiplexer                             : 1
+# Xors                                                 : 12
+ 1-bit xor2                                            : 6
+ 1-bit xor9                                            : 6
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <mob1/current_stage_10> in Unit <MainGame> is equivalent to the following 5 FFs/Latches, which will be removed : <mob1/current_stage_9> <mob1/current_stage_8> <mob1/current_stage_7> <mob1/current_stage_6> <mob1/current_stage_5> 
+INFO:Xst:2261 - The FF/Latch <mob2/current_stage_10> in Unit <MainGame> is equivalent to the following 5 FFs/Latches, which will be removed : <mob2/current_stage_9> <mob2/current_stage_8> <mob2/current_stage_7> <mob2/current_stage_6> <mob2/current_stage_5> 
+INFO:Xst:2261 - The FF/Latch <mob3/current_stage_10> in Unit <MainGame> is equivalent to the following 5 FFs/Latches, which will be removed : <mob3/current_stage_9> <mob3/current_stage_8> <mob3/current_stage_7> <mob3/current_stage_6> <mob3/current_stage_5> 
+INFO:Xst:2261 - The FF/Latch <mob0/current_stage_10> in Unit <MainGame> is equivalent to the following 5 FFs/Latches, which will be removed : <mob0/current_stage_9> <mob0/current_stage_8> <mob0/current_stage_7> <mob0/current_stage_6> <mob0/current_stage_5> 
+WARNING:Xst:1293 - FF/Latch <mob3/current_stage_10> has a constant value of 0 in block <MainGame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mob2/current_stage_10> has a constant value of 0 in block <MainGame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mob1/current_stage_10> has a constant value of 0 in block <MainGame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mob0/current_stage_10> has a constant value of 0 in block <MainGame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <PKeyPress/read> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/PREVIOUS_STATE> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/LED> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/TRIGGER> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/CODEWORD_7> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/CODEWORD_6> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/CODEWORD_5> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/CODEWORD_4> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/CODEWORD_3> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/CODEWORD_2> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/CODEWORD_1> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/CODEWORD_0> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/key_was_lifted> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/real_codeword_7> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/real_codeword_6> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/real_codeword_5> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/real_codeword_4> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/real_codeword_3> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/real_codeword_2> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/real_codeword_1> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/real_codeword_0> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/TRIG_ARR> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/COUNT_3> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/COUNT_2> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/COUNT_1> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/COUNT_0> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/scan_err> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/scan_code_10> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/scan_code_9> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/scan_code_8> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/scan_code_7> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/scan_code_6> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/scan_code_5> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/scan_code_4> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/scan_code_3> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/scan_code_2> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/scan_code_1> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <PKeyPress/scan_code_0> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/read> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/PREVIOUS_STATE> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/LED> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/TRIGGER> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/CODEWORD_7> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/CODEWORD_6> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/CODEWORD_5> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/CODEWORD_4> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/CODEWORD_3> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/CODEWORD_2> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/CODEWORD_1> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/CODEWORD_0> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/key_was_lifted> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/real_codeword_7> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/real_codeword_6> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/real_codeword_5> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/real_codeword_4> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/real_codeword_3> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/real_codeword_2> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/real_codeword_1> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/real_codeword_0> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/TRIG_ARR> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/COUNT_3> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/COUNT_2> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/COUNT_1> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/COUNT_0> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/scan_err> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/scan_code_10> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/scan_code_9> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/scan_code_8> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/scan_code_7> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/scan_code_6> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/scan_code_5> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/scan_code_4> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/scan_code_3> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/scan_code_2> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/scan_code_1> of sequential type is unconnected in block <MainGame>.
+WARNING:Xst:2677 - Node <downKeyPress/scan_code_0> of sequential type is unconnected in block <MainGame>.
+INFO:Xst:2697 - Unit <MainGame> : the RAMs <rightcollcheck2/ROM/Mrom__varindex0000>, <rightcollcheck1/ROM/Mrom__varindex0000> are packed into the single block RAM <rightcollcheck2/ROM/Mrom__varindex00001>
+INFO:Xst:2697 - Unit <MainGame> : the RAMs <rightcollcheck0/ROM/Mrom__varindex0000>, <leftcollcheck2/ROM/Mrom__varindex0000> are packed into the single block RAM <rightcollcheck0/ROM/Mrom__varindex00001>
+INFO:Xst:2697 - Unit <MainGame> : the RAMs <leftcollcheck1/ROM/Mrom__varindex0000>, <leftcollcheck0/ROM/Mrom__varindex0000> are packed into the single block RAM <leftcollcheck1/ROM/Mrom__varindex00001>
+INFO:Xst:2697 - Unit <MainGame> : the RAMs <ceilingcheck1/ROM/Mrom__varindex0000>, <ceilingcheck0/ROM/Mrom__varindex0000> are packed into the single block RAM <ceilingcheck1/ROM/Mrom__varindex00001>
+INFO:Xst:2697 - Unit <MainGame> : the RAMs <groundcheck1/ROM/Mrom__varindex0000>, <groundcheck0/ROM/Mrom__varindex0000> are packed into the single block RAM <groundcheck1/ROM/Mrom__varindex00001>
+INFO:Xst:2697 - Unit <MainGame> : the RAMs <mob3/ROMG/Mrom__varindex0000>, <mob2/ROMG/Mrom__varindex0000> are packed into the single block RAM <mob3/ROMG/Mrom__varindex00001>
+INFO:Xst:2697 - Unit <MainGame> : the RAMs <mob3/ROMR/Mrom__varindex0000>, <mob2/ROMR/Mrom__varindex0000> are packed into the single block RAM <mob3/ROMR/Mrom__varindex00001>
+INFO:Xst:2697 - Unit <MainGame> : the RAMs <mob1/ROMG/Mrom__varindex0000>, <mob0/ROMG/Mrom__varindex0000> are packed into the single block RAM <mob1/ROMG/Mrom__varindex00001>
+INFO:Xst:2697 - Unit <MainGame> : the RAMs <mob1/ROMR/Mrom__varindex0000>, <mob0/ROMR/Mrom__varindex0000> are packed into the single block RAM <mob1/ROMR/Mrom__varindex00001>
+WARNING:Xst:1710 - FF/Latch <data_13> (without init value) has a constant value of 0 in block <genrom_4>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_14> (without init value) has a constant value of 0 in block <genrom_4>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_19> (without init value) has a constant value of 0 in block <genrom_4>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <data_0> in Unit <genrom_3> is equivalent to the following 3 FFs/Latches, which will be removed : <data_15> <data_16> <data_31> 
+INFO:Xst:2261 - The FF/Latch <data_1> in Unit <genrom_3> is equivalent to the following 23 FFs/Latches, which will be removed : <data_2> <data_3> <data_4> <data_5> <data_6> <data_9> <data_10> <data_11> <data_12> <data_13> <data_14> <data_17> <data_18> <data_19> <data_20> <data_21> <data_22> <data_25> <data_26> <data_27> <data_28> <data_29> <data_30> 
+INFO:Xst:2261 - The FF/Latch <data_7> in Unit <genrom_3> is equivalent to the following 3 FFs/Latches, which will be removed : <data_8> <data_23> <data_24> 
+INFO:Xst:2261 - The FF/Latch <data_6> in Unit <genrom_4> is equivalent to the following FF/Latch, which will be removed : <data_7> 
+INFO:Xst:2261 - The FF/Latch <data_0> in Unit <genrom_4> is equivalent to the following 5 FFs/Latches, which will be removed : <data_1> <data_2> <data_3> <data_4> <data_20> 
+INFO:Xst:2261 - The FF/Latch <data_21> in Unit <genrom_4> is equivalent to the following 3 FFs/Latches, which will be removed : <data_22> <data_23> <data_24> 
+
+Optimizing unit <MainGame> ...
+
+Optimizing unit <hvsync_generator> ...
+
+Optimizing unit <genrom_2> ...
+
+Optimizing unit <genrom_3> ...
+
+Optimizing unit <genrom_4> ...
+
+Optimizing unit <genrom_6> ...
+
+Optimizing unit <genrom_9> ...
+
+Optimizing unit <DoorModule> ...
+
+Optimizing unit <StageBuilder> ...
+WARNING:Xst:1293 - FF/Latch <res_stage_posX_4> has a constant value of 0 in block <MainGame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <StageCode_4> has a constant value of 0 in block <MainGame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <door02/ROM/data_21> (without init value) has a constant value of 0 in block <MainGame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mob3/currentStageCode_4> has a constant value of 0 in block <MainGame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mob3/current_stage_4> has a constant value of 0 in block <MainGame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mob2/currentStageCode_4> has a constant value of 0 in block <MainGame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mob2/current_stage_4> has a constant value of 0 in block <MainGame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mob1/currentStageCode_4> has a constant value of 0 in block <MainGame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mob1/current_stage_4> has a constant value of 0 in block <MainGame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mob0/currentStageCode_4> has a constant value of 0 in block <MainGame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <mob0/current_stage_4> has a constant value of 0 in block <MainGame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1426 - The value init of the FF/Latch res_stage_posX_3 hinder the constant cleaning in the block MainGame.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch res_stage_posX_2 hinder the constant cleaning in the block MainGame.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch res_stage_posX_0 hinder the constant cleaning in the block MainGame.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch res_stage_posX_1 hinder the constant cleaning in the block MainGame.
+   You should achieve better results by setting this init to 1.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2261 - The FF/Latch <res_stage_posX_0> in Unit <MainGame> is equivalent to the following 3 FFs/Latches, which will be removed : <res_stage_posX_1> <res_stage_posX_2> <res_stage_posX_3> 
+INFO:Xst:2261 - The FF/Latch <door02/ROM/data_18> in Unit <MainGame> is equivalent to the following FF/Latch, which will be removed : <door01/ROM/data_11> 
+Found area constraint ratio of 100 (+ 5) on block MainGame, actual ratio is 98.
+INFO:Xst:2260 - The FF/Latch <currentStage/ROMG/data_11> in Unit <MainGame> is equivalent to the following FF/Latch : <currentStage/ROMG/data_12> 
+INFO:Xst:2260 - The FF/Latch <currentStage/ROMG/data_18> in Unit <MainGame> is equivalent to the following FF/Latch : <currentStage/ROMG/data_19> 
+INFO:Xst:2260 - The FF/Latch <currentStage/ROMG/data_14> in Unit <MainGame> is equivalent to the following FF/Latch : <currentStage/ROMG/data_17> 
+INFO:Xst:2261 - The FF/Latch <currentStage/ROMG/data_11> in Unit <MainGame> is equivalent to the following FF/Latch, which will be removed : <currentStage/ROMG/data_12> 
+INFO:Xst:2261 - The FF/Latch <currentStage/ROMG/data_18> in Unit <MainGame> is equivalent to the following FF/Latch, which will be removed : <currentStage/ROMG/data_19> 
+INFO:Xst:2261 - The FF/Latch <currentStage/ROMG/data_14> in Unit <MainGame> is equivalent to the following FF/Latch, which will be removed : <currentStage/ROMG/data_17> 
+FlipFlop stage_posX_0 has been replicated 1 time(s)
+FlipFlop stage_posX_1 has been replicated 1 time(s)
+FlipFlop stage_posX_2 has been replicated 1 time(s)
+FlipFlop stage_posX_3 has been replicated 1 time(s)
+FlipFlop stage_posX_4 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 1751
+ Flip-Flops                                            : 1751
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : MainGame.ngr
+Top Level Output File Name         : MainGame
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 8
+
+Cell Usage :
+# BELS                             : 17491
+#      GND                         : 1
+#      INV                         : 1261
+#      LUT1                        : 1569
+#      LUT2                        : 1591
+#      LUT2_D                      : 4
+#      LUT2_L                      : 17
+#      LUT3                        : 1306
+#      LUT3_D                      : 15
+#      LUT3_L                      : 1
+#      LUT4                        : 1975
+#      LUT4_D                      : 17
+#      LUT4_L                      : 32
+#      MULT_AND                    : 33
+#      MUXCY                       : 5385
+#      MUXF5                       : 499
+#      MUXF6                       : 144
+#      MUXF7                       : 52
+#      MUXF8                       : 23
+#      VCC                         : 1
+#      XORCY                       : 3565
+# FlipFlops/Latches                : 1751
+#      FD                          : 204
+#      FDE                         : 656
+#      FDR                         : 402
+#      FDRE                        : 468
+#      FDRS                        : 6
+#      FDS                         : 14
+#      FDSE                        : 1
+# RAMS                             : 11
+#      RAMB16_S36                  : 2
+#      RAMB16_S36_S36              : 9
+# Clock Buffers                    : 6
+#      BUFG                        : 5
+#      BUFGP                       : 1
+# IO Buffers                       : 7
+#      IBUF                        : 2
+#      OBUF                        : 5
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                     4167  out of   4656    89%  
+ Number of Slice Flip Flops:           1751  out of   9312    18%  
+ Number of 4 input LUTs:               7788  out of   9312    83%  
+ Number of IOs:                           8
+ Number of bonded IOBs:                   8  out of    232     3%  
+ Number of BRAMs:                        11  out of     20    55%  
+ Number of GCLKs:                         6  out of     24    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 485   |
+clk_251                            | BUFG                   | 132   |
+clk_maxspeed1                      | BUFG                   | 763   |
+clk_chargravity1                   | BUFG                   | 33    |
+clk_normalspeed1                   | BUFG                   | 285   |
+clk_charjump1                      | BUFG                   | 64    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 14.274ns (Maximum Frequency: 70.058MHz)
+   Minimum input arrival time before clock: 4.900ns
+   Maximum output required time after clock: 5.407ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 7.218ns (frequency: 138.543MHz)
+  Total number of paths / destination ports: 3182 / 685
+-------------------------------------------------------------------------
+Delay:               7.218ns (Levels of Logic = 5)
+  Source:            mob3/ROMR/Mrom__varindex00001 (RAM)
+  Destination:       mob3/DrawR (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: mob3/ROMR/Mrom__varindex00001 to mob3/DrawR
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB16_S36_S36:CLKA->DOA0    1   2.800   0.499  mob3/ROMR/Mrom__varindex00001 (mob3/dataR<0>)
+     LUT3:I1->O            1   0.704   0.000  mob3/Mmux__varindex0000_101 (mob3/Mmux__varindex0000_10)
+     MUXF5:I0->O           1   0.321   0.000  mob3/Mmux__varindex0000_8_f5 (mob3/Mmux__varindex0000_8_f5)
+     MUXF6:I0->O           1   0.521   0.000  mob3/Mmux__varindex0000_6_f6 (mob3/Mmux__varindex0000_6_f6)
+     MUXF7:I0->O           1   0.521   0.000  mob3/Mmux__varindex0000_4_f7 (mob3/Mmux__varindex0000_4_f7)
+     MUXF8:I0->O           1   0.521   0.420  mob3/Mmux__varindex0000_2_f8 (mob3/_varindex0000_inv)
+     FDR:R                     0.911          mob3/DrawR
+    ----------------------------------------
+    Total                      7.218ns (6.299ns logic, 0.919ns route)
+                                       (87.3% logic, 12.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_251'
+  Clock period: 10.878ns (frequency: 91.931MHz)
+  Total number of paths / destination ports: 5992 / 172
+-------------------------------------------------------------------------
+Delay:               10.878ns (Levels of Logic = 7)
+  Source:            syncgen/CounterX_0 (FF)
+  Destination:       currentStage/DrawRed (FF)
+  Source Clock:      clk_251 rising
+  Destination Clock: clk_251 rising
+
+  Data Path: syncgen/CounterX_0 to currentStage/DrawRed
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             41   0.591   1.344  syncgen/CounterX_0 (syncgen/CounterX_0)
+     LUT2:I1->O            1   0.704   0.000  currentStage/Madd_CounterXBlockSprite_addsub0000_lut<0> (currentStage/Madd_CounterXBlockSprite_addsub0000_lut<0>)
+     XORCY:LI->O          43   0.527   1.441  currentStage/Madd_CounterXBlockSprite_addsub0000_xor<0> (currentStage/Msub_CounterXBlockSprite_cy<0>)
+     LUT2:I0->O           24   0.704   1.252  currentStage/Msub_CounterXBlockSprite_xor<1>11 (currentStage/CounterXBlockSprite<1>)
+     MUXF5:S->O            1   0.739   0.000  currentStage/Mmux__varindex0000_6_f5_1 (currentStage/Mmux__varindex0000_6_f52)
+     MUXF6:I1->O           1   0.521   0.000  currentStage/Mmux__varindex0000_5_f6_0 (currentStage/Mmux__varindex0000_5_f61)
+     MUXF7:I1->O           1   0.521   0.499  currentStage/Mmux__varindex0000_4_f7 (currentStage/Mmux__varindex0000_4_f7)
+     LUT3:I1->O            1   0.704   0.420  currentStage/_varindex0000_inv1 (currentStage/_varindex0000_inv)
+     FDR:R                     0.911          currentStage/DrawRed
+    ----------------------------------------
+    Total                     10.878ns (5.922ns logic, 4.956ns route)
+                                       (54.4% logic, 45.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_maxspeed1'
+  Clock period: 14.274ns (frequency: 70.058MHz)
+  Total number of paths / destination ports: 6006843 / 1894
+-------------------------------------------------------------------------
+Delay:               14.274ns (Levels of Logic = 32)
+  Source:            mob3/mob_posX_0 (FF)
+  Destination:       mob3/jump_clock1_0 (FF)
+  Source Clock:      clk_maxspeed1 rising
+  Destination Clock: clk_maxspeed1 rising
+
+  Data Path: mob3/mob_posX_0 to mob3/jump_clock1_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              3   0.591   0.610  mob3/mob_posX_0 (mob3/mob_posX_0)
+     LUT2:I1->O            1   0.704   0.000  mob3/Msub_mob_realposX_sub0000_lut<0> (mob3/Msub_mob_realposX_sub0000_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  mob3/Msub_mob_realposX_sub0000_cy<0> (mob3/Msub_mob_realposX_sub0000_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  mob3/Msub_mob_realposX_sub0000_cy<1> (mob3/Msub_mob_realposX_sub0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  mob3/Msub_mob_realposX_sub0000_cy<2> (mob3/Msub_mob_realposX_sub0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  mob3/Msub_mob_realposX_sub0000_cy<3> (mob3/Msub_mob_realposX_sub0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  mob3/Msub_mob_realposX_sub0000_cy<4> (mob3/Msub_mob_realposX_sub0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  mob3/Msub_mob_realposX_sub0000_cy<5> (mob3/Msub_mob_realposX_sub0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  mob3/Msub_mob_realposX_sub0000_cy<6> (mob3/Msub_mob_realposX_sub0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  mob3/Msub_mob_realposX_sub0000_cy<7> (mob3/Msub_mob_realposX_sub0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  mob3/Msub_mob_realposX_sub0000_cy<8> (mob3/Msub_mob_realposX_sub0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  mob3/Msub_mob_realposX_sub0000_cy<9> (mob3/Msub_mob_realposX_sub0000_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  mob3/Msub_mob_realposX_sub0000_cy<10> (mob3/Msub_mob_realposX_sub0000_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  mob3/Msub_mob_realposX_sub0000_cy<11> (mob3/Msub_mob_realposX_sub0000_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  mob3/Msub_mob_realposX_sub0000_cy<12> (mob3/Msub_mob_realposX_sub0000_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  mob3/Msub_mob_realposX_sub0000_cy<13> (mob3/Msub_mob_realposX_sub0000_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  mob3/Msub_mob_realposX_sub0000_cy<14> (mob3/Msub_mob_realposX_sub0000_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  mob3/Msub_mob_realposX_sub0000_cy<15> (mob3/Msub_mob_realposX_sub0000_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  mob3/Msub_mob_realposX_sub0000_cy<16> (mob3/Msub_mob_realposX_sub0000_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  mob3/Msub_mob_realposX_sub0000_cy<17> (mob3/Msub_mob_realposX_sub0000_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  mob3/Msub_mob_realposX_sub0000_cy<18> (mob3/Msub_mob_realposX_sub0000_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  mob3/Msub_mob_realposX_sub0000_cy<19> (mob3/Msub_mob_realposX_sub0000_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  mob3/Msub_mob_realposX_sub0000_cy<20> (mob3/Msub_mob_realposX_sub0000_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  mob3/Msub_mob_realposX_sub0000_cy<21> (mob3/Msub_mob_realposX_sub0000_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  mob3/Msub_mob_realposX_sub0000_cy<22> (mob3/Msub_mob_realposX_sub0000_cy<22>)
+     MUXCY:CI->O           1   0.059   0.000  mob3/Msub_mob_realposX_sub0000_cy<23> (mob3/Msub_mob_realposX_sub0000_cy<23>)
+     MUXCY:CI->O           1   0.059   0.000  mob3/Msub_mob_realposX_sub0000_cy<24> (mob3/Msub_mob_realposX_sub0000_cy<24>)
+     XORCY:CI->O           9   0.804   0.824  mob3/Msub_mob_realposX_sub0000_xor<25> (mob3/mob_realposX<25>)
+     LUT4:I3->O            1   0.704   0.000  mob3/Mcompar_mob_lookingleft_cmp_le0000_lut<8>1 (mob3/Mcompar_mob_lookingleft_cmp_le0000_lut<8>1)
+     MUXCY:S->O            1   0.864   0.455  mob3/Mcompar_mob_lookingleft_cmp_le0000_cy<8>_0 (mob3/Mcompar_mob_lookingleft_cmp_le0000_cy<8>1)
+     LUT3:I2->O           58   0.704   1.274  mob3/Mcompar_mob_lookingleft_cmp_le0000_cy<10>1 (mob3/mob_onScreen_cmp_le0000)
+     LUT4:I3->O           70   0.704   1.278  mob3/jump_clock1_and000011 (mob3/mob_jump_not0001)
+     LUT4:I3->O           32   0.704   1.262  mob3/jump_clock1_and00001 (mob3/jump_clock1_and0000)
+     FDRE:R                    0.911          mob3/jump_clock1_0
+    ----------------------------------------
+    Total                     14.274ns (8.570ns logic, 5.704ns route)
+                                       (60.0% logic, 40.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_chargravity1'
+  Clock period: 7.198ns (frequency: 138.924MHz)
+  Total number of paths / destination ports: 3828 / 98
+-------------------------------------------------------------------------
+Delay:               7.198ns (Levels of Logic = 34)
+  Source:            char_YspeedDirection (FF)
+  Destination:       char_YspeedModule_31 (FF)
+  Source Clock:      clk_chargravity1 rising
+  Destination Clock: clk_chargravity1 rising
+
+  Data Path: char_YspeedDirection to char_YspeedModule_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             73   0.591   1.354  char_YspeedDirection (char_YspeedDirection)
+     LUT2:I1->O            1   0.704   0.000  Maddsub_char_YspeedModule_addsub0000_lut<0> (Maddsub_char_YspeedModule_addsub0000_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  Maddsub_char_YspeedModule_addsub0000_cy<0> (Maddsub_char_YspeedModule_addsub0000_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<1> (Maddsub_char_YspeedModule_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<2> (Maddsub_char_YspeedModule_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<3> (Maddsub_char_YspeedModule_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<4> (Maddsub_char_YspeedModule_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<5> (Maddsub_char_YspeedModule_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<6> (Maddsub_char_YspeedModule_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<7> (Maddsub_char_YspeedModule_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<8> (Maddsub_char_YspeedModule_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<9> (Maddsub_char_YspeedModule_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<10> (Maddsub_char_YspeedModule_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<11> (Maddsub_char_YspeedModule_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<12> (Maddsub_char_YspeedModule_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<13> (Maddsub_char_YspeedModule_addsub0000_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<14> (Maddsub_char_YspeedModule_addsub0000_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<15> (Maddsub_char_YspeedModule_addsub0000_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<16> (Maddsub_char_YspeedModule_addsub0000_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<17> (Maddsub_char_YspeedModule_addsub0000_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<18> (Maddsub_char_YspeedModule_addsub0000_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<19> (Maddsub_char_YspeedModule_addsub0000_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<20> (Maddsub_char_YspeedModule_addsub0000_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<21> (Maddsub_char_YspeedModule_addsub0000_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<22> (Maddsub_char_YspeedModule_addsub0000_cy<22>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<23> (Maddsub_char_YspeedModule_addsub0000_cy<23>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<24> (Maddsub_char_YspeedModule_addsub0000_cy<24>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<25> (Maddsub_char_YspeedModule_addsub0000_cy<25>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<26> (Maddsub_char_YspeedModule_addsub0000_cy<26>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<27> (Maddsub_char_YspeedModule_addsub0000_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<28> (Maddsub_char_YspeedModule_addsub0000_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<29> (Maddsub_char_YspeedModule_addsub0000_cy<29>)
+     MUXCY:CI->O           0   0.059   0.000  Maddsub_char_YspeedModule_addsub0000_cy<30> (Maddsub_char_YspeedModule_addsub0000_cy<30>)
+     XORCY:CI->O           1   0.804   0.499  Maddsub_char_YspeedModule_addsub0000_xor<31> (char_YspeedModule_addsub0000<31>)
+     LUT4:I1->O            1   0.704   0.000  Mmux_char_YspeedModule_mux000011 (char_YspeedModule_mux0000<0>)
+     FDRE:D                    0.308          char_YspeedModule_31
+    ----------------------------------------
+    Total                      7.198ns (5.345ns logic, 1.853ns route)
+                                       (74.3% logic, 25.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_normalspeed1'
+  Clock period: 12.528ns (frequency: 79.820MHz)
+  Total number of paths / destination ports: 401407 / 497
+-------------------------------------------------------------------------
+Delay:               12.528ns (Levels of Logic = 34)
+  Source:            stage_posX_1 (FF)
+  Destination:       stage_posX_0 (FF)
+  Source Clock:      clk_normalspeed1 rising
+  Destination Clock: clk_normalspeed1 rising
+
+  Data Path: stage_posX_1 to stage_posX_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             27   0.591   1.261  stage_posX_1 (stage_posX_1)
+     INV:I->O              1   0.704   0.000  door02/Msub_resetPulse_addsub0002_lut<1>_INV_0 (door02/Msub_resetPulse_addsub0002_lut<1>)
+     MUXCY:S->O            1   0.464   0.000  door02/Msub_resetPulse_addsub0002_cy<1> (door02/Msub_resetPulse_addsub0002_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<2> (door02/Msub_resetPulse_addsub0002_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<3> (door02/Msub_resetPulse_addsub0002_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<4> (door02/Msub_resetPulse_addsub0002_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<5> (door02/Msub_resetPulse_addsub0002_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<6> (door02/Msub_resetPulse_addsub0002_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<7> (door02/Msub_resetPulse_addsub0002_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<8> (door02/Msub_resetPulse_addsub0002_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<9> (door02/Msub_resetPulse_addsub0002_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<10> (door02/Msub_resetPulse_addsub0002_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<11> (door02/Msub_resetPulse_addsub0002_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<12> (door02/Msub_resetPulse_addsub0002_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<13> (door02/Msub_resetPulse_addsub0002_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<14> (door02/Msub_resetPulse_addsub0002_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<15> (door02/Msub_resetPulse_addsub0002_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<16> (door02/Msub_resetPulse_addsub0002_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<17> (door02/Msub_resetPulse_addsub0002_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<18> (door02/Msub_resetPulse_addsub0002_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<19> (door02/Msub_resetPulse_addsub0002_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<20> (door02/Msub_resetPulse_addsub0002_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<21> (door02/Msub_resetPulse_addsub0002_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<22> (door02/Msub_resetPulse_addsub0002_cy<22>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<23> (door02/Msub_resetPulse_addsub0002_cy<23>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<24> (door02/Msub_resetPulse_addsub0002_cy<24>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<25> (door02/Msub_resetPulse_addsub0002_cy<25>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<26> (door02/Msub_resetPulse_addsub0002_cy<26>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<27> (door02/Msub_resetPulse_addsub0002_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  door02/Msub_resetPulse_addsub0002_cy<28> (door02/Msub_resetPulse_addsub0002_cy<28>)
+     XORCY:CI->O           1   0.804   0.595  door02/Msub_resetPulse_addsub0002_xor<29> (door02/resetPulse_addsub0002<29>)
+     LUT3:I0->O            1   0.704   0.000  door02/Mcompar_resetPulse_cmp_ge0000_lut<10> (door02/Mcompar_resetPulse_cmp_ge0000_lut<10>)
+     MUXCY:S->O            1   0.864   0.455  door02/Mcompar_resetPulse_cmp_ge0000_cy<10> (door02/resetPulse_cmp_ge0000)
+     LUT4_D:I2->O         34   0.704   1.267  door02/resetPulse1 (resetPulse2)
+     LUT4:I3->O           37   0.704   1.264  stage_posX_not00011 (stage_posX_not0001)
+     FDE:CE                    0.555          stage_posX_0
+    ----------------------------------------
+    Total                     12.528ns (7.687ns logic, 4.841ns route)
+                                       (61.4% logic, 38.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_charjump1'
+  Clock period: 9.497ns (frequency: 105.299MHz)
+  Total number of paths / destination ports: 30624 / 128
+-------------------------------------------------------------------------
+Delay:               9.497ns (Levels of Logic = 44)
+  Source:            char_posY_1 (FF)
+  Destination:       stage_posY_31 (FF)
+  Source Clock:      clk_charjump1 rising
+  Destination Clock: clk_charjump1 rising
+
+  Data Path: char_posY_1 to stage_posY_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             21   0.591   1.303  char_posY_1 (char_posY_1)
+     LUT1:I0->O            1   0.704   0.000  Mcompar_char_bottomlimit_cy<1>_rt (Mcompar_char_bottomlimit_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  Mcompar_char_bottomlimit_cy<1> (Mcompar_char_bottomlimit_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_char_bottomlimit_cy<2> (Mcompar_char_bottomlimit_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_char_bottomlimit_cy<3> (Mcompar_char_bottomlimit_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_char_bottomlimit_cy<4> (Mcompar_char_bottomlimit_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_char_bottomlimit_cy<5> (Mcompar_char_bottomlimit_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_char_bottomlimit_cy<6> (Mcompar_char_bottomlimit_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_char_bottomlimit_cy<7> (Mcompar_char_bottomlimit_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_char_bottomlimit_cy<8> (Mcompar_char_bottomlimit_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_char_bottomlimit_cy<9> (Mcompar_char_bottomlimit_cy<9>)
+     MUXCY:CI->O          37   0.459   1.439  Mcompar_char_bottomlimit_cy<10> (Mcompar_char_bottomlimit_cy<10>)
+     LUT2:I0->O            1   0.704   0.420  Mcount_stage_posY1 (Mcount_stage_posY)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<0> (Mcount_stage_posY_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<1> (Mcount_stage_posY_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<2> (Mcount_stage_posY_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<3> (Mcount_stage_posY_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<4> (Mcount_stage_posY_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<5> (Mcount_stage_posY_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<6> (Mcount_stage_posY_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<7> (Mcount_stage_posY_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<8> (Mcount_stage_posY_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<9> (Mcount_stage_posY_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<10> (Mcount_stage_posY_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<11> (Mcount_stage_posY_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<12> (Mcount_stage_posY_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<13> (Mcount_stage_posY_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<14> (Mcount_stage_posY_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<15> (Mcount_stage_posY_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<16> (Mcount_stage_posY_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<17> (Mcount_stage_posY_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<18> (Mcount_stage_posY_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<19> (Mcount_stage_posY_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<20> (Mcount_stage_posY_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<21> (Mcount_stage_posY_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<22> (Mcount_stage_posY_cy<22>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<23> (Mcount_stage_posY_cy<23>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<24> (Mcount_stage_posY_cy<24>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<25> (Mcount_stage_posY_cy<25>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<26> (Mcount_stage_posY_cy<26>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<27> (Mcount_stage_posY_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<28> (Mcount_stage_posY_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_stage_posY_cy<29> (Mcount_stage_posY_cy<29>)
+     MUXCY:CI->O           0   0.059   0.000  Mcount_stage_posY_cy<30> (Mcount_stage_posY_cy<30>)
+     XORCY:CI->O           1   0.804   0.000  Mcount_stage_posY_xor<31> (Mcount_stage_posY32)
+     FDE:D                     0.308          stage_posY_31
+    ----------------------------------------
+    Total                      9.497ns (6.335ns logic, 3.162ns route)
+                                       (66.7% logic, 33.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 104 / 104
+-------------------------------------------------------------------------
+Offset:              4.900ns (Levels of Logic = 3)
+  Source:            PS2_CLK (PAD)
+  Destination:       SpacePress/COUNT_2 (FF)
+  Destination Clock: clk rising
+
+  Data Path: PS2_CLK to SpacePress/COUNT_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            40   1.218   1.344  PS2_CLK_IBUF (PS2_CLK_IBUF)
+     LUT2:I1->O            2   0.704   0.622  rightKeyPress/Mxor_read_xor0000_Result1 (rightKeyPress/read_xor0000)
+     LUT4:I0->O            1   0.704   0.000  rightKeyPress/COUNT_mux0000<1>1 (rightKeyPress/COUNT_mux0000<1>)
+     FDE:D                     0.308          rightKeyPress/COUNT_2
+    ----------------------------------------
+    Total                      4.900ns (2.934ns logic, 1.966ns route)
+                                       (59.9% logic, 40.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              4.283ns (Levels of Logic = 1)
+  Source:            vga_blue (FF)
+  Destination:       vga_blue (PAD)
+  Source Clock:      clk rising
+
+  Data Path: vga_blue to vga_blue
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.591   0.420  vga_blue (vga_blue_OBUF)
+     OBUF:I->O                 3.272          vga_blue_OBUF (vga_blue)
+    ----------------------------------------
+    Total                      4.283ns (3.863ns logic, 0.420ns route)
+                                       (90.2% logic, 9.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_251'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              5.407ns (Levels of Logic = 2)
+  Source:            syncgen/vga_HS (FF)
+  Destination:       vga_hsync (PAD)
+  Source Clock:      clk_251 rising
+
+  Data Path: syncgen/vga_HS to vga_hsync
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.591   0.420  syncgen/vga_HS (syncgen/vga_HS)
+     INV:I->O              1   0.704   0.420  syncgen/vga_h_sync1_INV_0 (vga_hsync_OBUF)
+     OBUF:I->O                 3.272          vga_hsync_OBUF (vga_hsync)
+    ----------------------------------------
+    Total                      5.407ns (4.567ns logic, 0.840ns route)
+                                       (84.5% logic, 15.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 41.00 secs
+Total CPU time to Xst completion: 41.11 secs
+ 
+--> 
+
+Total memory usage is 464536 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  358 (   0 filtered)
+Number of infos    :   53 (   0 filtered)
+

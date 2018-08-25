@@ -1,0 +1,4 @@
+verilog work "../../../Downloads/readMem.v"
+verilog work "../ProyectoJuego/hvsync_generator.v"
+verilog work "../ProyectoJuego/draw_rectangle.v"
+verilog work "../../../Downloads/RomTest.v"

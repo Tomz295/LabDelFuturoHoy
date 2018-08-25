@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 266 </arg>Connection to input port &apos;<arg fmt="%s" index="2">stageCode</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 266 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CounterX</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 266 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CounterY</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 273 </arg>Connection to input port &apos;<arg fmt="%s" index="2">stageCode</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 273 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CounterX</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 273 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CounterY</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 275 </arg>Connection to input port &apos;<arg fmt="%s" index="2">stageCode</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 275 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CounterX</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 275 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CounterY</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 289 </arg>Connection to input port &apos;<arg fmt="%s" index="2">stageCode</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 291 </arg>Connection to input port &apos;<arg fmt="%s" index="2">stageCode</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 294 </arg>Connection to input port &apos;<arg fmt="%s" index="2">stageCode</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 296 </arg>Connection to input port &apos;<arg fmt="%s" index="2">stageCode</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 300 </arg>Connection to input port &apos;<arg fmt="%s" index="2">stageCode</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 302 </arg>Connection to input port &apos;<arg fmt="%s" index="2">stageCode</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 304 </arg>Connection to input port &apos;<arg fmt="%s" index="2">stageCode</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 308 </arg>Connection to input port &apos;<arg fmt="%s" index="2">stageCode</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 310 </arg>Connection to input port &apos;<arg fmt="%s" index="2">stageCode</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 312 </arg>Connection to input port &apos;<arg fmt="%s" index="2">stageCode</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 396 </arg>Connection to input port &apos;<arg fmt="%s" index="2">stageCode</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 396 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CounterX</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 396 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CounterY</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 396 </arg>Connection to input port &apos;<arg fmt="%s" index="2">mobNumber</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MobsModule.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">x0</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MobsModule.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">x1</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MobsModule.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">y0</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MobsModule.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">y1</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MobsModule.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CounterX</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MobsModule.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CounterY</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 397 </arg>Connection to input port &apos;<arg fmt="%s" index="2">stageCode</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 397 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CounterX</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 397 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CounterY</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 397 </arg>Connection to input port &apos;<arg fmt="%s" index="2">mobNumber</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MobsModule.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">x0</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MobsModule.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">x1</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MobsModule.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">y0</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MobsModule.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">y1</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MobsModule.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CounterX</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MobsModule.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CounterY</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 398 </arg>Connection to input port &apos;<arg fmt="%s" index="2">stageCode</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 398 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CounterX</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 398 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CounterY</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 398 </arg>Connection to input port &apos;<arg fmt="%s" index="2">mobNumber</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MobsModule.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">x0</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MobsModule.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">x1</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MobsModule.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">y0</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MobsModule.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">y1</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MobsModule.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CounterX</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MobsModule.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CounterY</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 399 </arg>Connection to input port &apos;<arg fmt="%s" index="2">stageCode</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 399 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CounterX</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 399 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CounterY</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 399 </arg>Connection to input port &apos;<arg fmt="%s" index="2">mobNumber</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MobsModule.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">x0</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MobsModule.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">x1</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MobsModule.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">y0</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MobsModule.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">y1</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MobsModule.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CounterX</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MobsModule.v&quot; line 72 </arg>Connection to input port &apos;<arg fmt="%s" index="2">CounterY</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 473 </arg>Connection to input port &apos;<arg fmt="%s" index="2">x0</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 473 </arg>Connection to input port &apos;<arg fmt="%s" index="2">x1</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 473 </arg>Connection to input port &apos;<arg fmt="%s" index="2">y0</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;MainGame.v&quot; line 473 </arg>Connection to input port &apos;<arg fmt="%s" index="2">y1</arg>&apos; does not match port size
+</msg>
+
+<msg type="info" file="Xst" num="2546" delta="old" >&quot;<arg fmt="%s" index="1">ROMtest.v</arg>&quot; line <arg fmt="%d" index="2">48</arg>: reading initialization file &quot;<arg fmt="%s" index="3">BlockSpritesR.list</arg>&quot;.
+</msg>
+
+<msg type="info" file="Xst" num="2546" delta="old" >&quot;<arg fmt="%s" index="1">ROMtest.v</arg>&quot; line <arg fmt="%d" index="2">48</arg>: reading initialization file &quot;<arg fmt="%s" index="3">BlockSpritesG.list</arg>&quot;.
+</msg>
+
+<msg type="info" file="Xst" num="2546" delta="old" >&quot;<arg fmt="%s" index="1">ROMtest.v</arg>&quot; line <arg fmt="%d" index="2">48</arg>: reading initialization file &quot;<arg fmt="%s" index="3">BlockSpritesB.list</arg>&quot;.
+</msg>
+
+<msg type="info" file="Xst" num="2546" delta="old" >&quot;<arg fmt="%s" index="1">ROMtest.v</arg>&quot; line <arg fmt="%d" index="2">48</arg>: reading initialization file &quot;<arg fmt="%s" index="3">DoorsData.list</arg>&quot;.
+</msg>
+
+<msg type="info" file="Xst" num="2546" delta="old" >&quot;<arg fmt="%s" index="1">ROMtest.v</arg>&quot; line <arg fmt="%d" index="2">48</arg>: reading initialization file &quot;<arg fmt="%s" index="3">StageData.list</arg>&quot;.
+</msg>
+
+<msg type="info" file="Xst" num="1607" delta="old" >Contents of array &lt;<arg fmt="%s" index="1">dataR</arg>&gt; may be accessed with an index that does not cover the full array size.
+</msg>
+
+<msg type="info" file="Xst" num="1607" delta="old" >Contents of array &lt;<arg fmt="%s" index="1">dataG</arg>&gt; may be accessed with an index that does not cover the full array size.
+</msg>
+
+<msg type="info" file="Xst" num="1607" delta="old" >Contents of array &lt;<arg fmt="%s" index="1">dataB</arg>&gt; may be accessed with an index that does not cover the full array size.
+</msg>
+
+<msg type="info" file="Xst" num="2546" delta="old" >&quot;<arg fmt="%s" index="1">ROMtest.v</arg>&quot; line <arg fmt="%d" index="2">48</arg>: reading initialization file &quot;<arg fmt="%s" index="3">MobData.list</arg>&quot;.
+</msg>
+
+<msg type="info" file="Xst" num="2546" delta="old" >&quot;<arg fmt="%s" index="1">ROMtest.v</arg>&quot; line <arg fmt="%d" index="2">48</arg>: reading initialization file &quot;<arg fmt="%s" index="3">MobSpritesR.list</arg>&quot;.
+</msg>
+
+<msg type="info" file="Xst" num="2546" delta="old" >&quot;<arg fmt="%s" index="1">ROMtest.v</arg>&quot; line <arg fmt="%d" index="2">48</arg>: reading initialization file &quot;<arg fmt="%s" index="3">MobSpritesG.list</arg>&quot;.
+</msg>
+
+<msg type="info" file="Xst" num="2546" delta="old" >&quot;<arg fmt="%s" index="1">ROMtest.v</arg>&quot; line <arg fmt="%d" index="2">48</arg>: reading initialization file &quot;<arg fmt="%s" index="3">MobSpritesB.list</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="1781" delta="old" >Signal &lt;<arg fmt="%s" index="1">rom</arg>&gt; is used but never assigned. Tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="1781" delta="old" >Signal &lt;<arg fmt="%s" index="1">rom</arg>&gt; is used but never assigned. Tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="1781" delta="old" >Signal &lt;<arg fmt="%s" index="1">rom</arg>&gt; is used but never assigned. Tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="1781" delta="old" >Signal &lt;<arg fmt="%s" index="1">rom</arg>&gt; is used but never assigned. Tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="1781" delta="old" >Signal &lt;<arg fmt="%s" index="1">rom</arg>&gt; is used but never assigned. Tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="1781" delta="old" >Signal &lt;<arg fmt="%s" index="1">rom</arg>&gt; is used but never assigned. Tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="1781" delta="old" >Signal &lt;<arg fmt="%s" index="1">rom</arg>&gt; is used but never assigned. Tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="1781" delta="old" >Signal &lt;<arg fmt="%s" index="1">rom</arg>&gt; is used but never assigned. Tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="1781" delta="old" >Signal &lt;<arg fmt="%s" index="1">rom</arg>&gt; is used but never assigned. Tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="1305" delta="old" >Output &lt;<arg fmt="%s" index="1">drawB</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1305" delta="old" >Output &lt;<arg fmt="%s" index="1">drawG</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1305" delta="old" >Output &lt;<arg fmt="%s" index="1">drawR</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">stageCode&lt;10:4&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">door_posX&lt;31:10&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0000000000000000000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">door_posX&lt;4:0&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">CounterY32Block&lt;31:10&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">CounterY32Block&lt;4:0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">CounterX32Block&lt;4:0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">data_index&lt;31:9&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">aux_data</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">CounterY32Block&lt;31:22&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">CounterY32Block&lt;4:0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">CounterX32Block&lt;31:22&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">CounterX32Block&lt;4:0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">mobNumber&lt;10:6&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">drawSpawn</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">CounterXFixed&lt;31:5&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">movedown</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">drawR2</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">drawR1</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">drawG2</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">drawG1</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">drawB2</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">drawB1</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">Pkey</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="524" delta="old" >All outputs of the instance &lt;<arg fmt="%s" index="1">square32by32</arg>&gt; of the block &lt;<arg fmt="%s" index="2">draw_rectangle</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">MobsModule</arg>&gt;.
+This instance will be removed from the design along with all underlying logic
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">downKeyPress</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">PKeyPress</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">current_stage_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mob3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">current_stage_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mob3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">current_stage_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mob3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">current_stage_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mob3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">current_stage_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mob3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">current_stage_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mob3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">current_stage_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mob2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">current_stage_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mob2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">current_stage_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mob2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">current_stage_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mob2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">current_stage_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mob2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">current_stage_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mob2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">current_stage_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mob1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">current_stage_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mob1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">current_stage_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mob1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">current_stage_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mob1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">current_stage_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mob1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">current_stage_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mob1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">current_stage_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mob0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">current_stage_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mob0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">current_stage_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mob0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">current_stage_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mob0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">current_stage_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mob0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">current_stage_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mob0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mob3</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="old" >The ROM &lt;<arg fmt="%s" index="1">Mrom__varindex0000</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">data</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mrom__varindex0000</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="3045" delta="old" >The ROM description &lt;<arg fmt="%s" index="1">Mrom__varindex0000</arg>&gt; will be implemented on LUTs because the limited number of device block RAMs. If you want to be implemented as block RAM, please select a larger device.
+</msg>
+
+<msg type="info" file="Xst" num="3045" delta="old" >The ROM description &lt;<arg fmt="%s" index="1">Mrom__varindex0000</arg>&gt; will be implemented on LUTs because the limited number of device block RAMs. If you want to be implemented as block RAM, please select a larger device.
+</msg>
+
+<msg type="info" file="Xst" num="3045" delta="old" >The ROM description &lt;<arg fmt="%s" index="1">Mrom__varindex0000</arg>&gt; will be implemented on LUTs because the limited number of device block RAMs. If you want to be implemented as block RAM, please select a larger device.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="old" >The ROM &lt;<arg fmt="%s" index="1">Mrom__varindex0000</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">data</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mrom__varindex0000</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="3045" delta="old" >The ROM description &lt;<arg fmt="%s" index="1">Mrom__varindex0000</arg>&gt; will be implemented on LUTs because the limited number of device block RAMs. If you want to be implemented as block RAM, please select a larger device.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="old" >The ROM &lt;<arg fmt="%s" index="1">Mrom__varindex0000</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">data</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mrom__varindex0000</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="old" >The ROM &lt;<arg fmt="%s" index="1">Mrom__varindex0000</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">data</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mrom__varindex0000</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="3045" delta="old" >The ROM description &lt;<arg fmt="%s" index="1">Mrom__varindex0000</arg>&gt; will be implemented on LUTs because the limited number of device block RAMs. If you want to be implemented as block RAM, please select a larger device.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CounterXFixed_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MobsModule</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">mob1/current_stage_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MainGame</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mob1/current_stage_9&gt; &lt;mob1/current_stage_8&gt; &lt;mob1/current_stage_7&gt; &lt;mob1/current_stage_6&gt; &lt;mob1/current_stage_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">mob2/current_stage_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MainGame</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mob2/current_stage_9&gt; &lt;mob2/current_stage_8&gt; &lt;mob2/current_stage_7&gt; &lt;mob2/current_stage_6&gt; &lt;mob2/current_stage_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">mob3/current_stage_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MainGame</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mob3/current_stage_9&gt; &lt;mob3/current_stage_8&gt; &lt;mob3/current_stage_7&gt; &lt;mob3/current_stage_6&gt; &lt;mob3/current_stage_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">mob0/current_stage_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MainGame</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mob0/current_stage_9&gt; &lt;mob0/current_stage_8&gt; &lt;mob0/current_stage_7&gt; &lt;mob0/current_stage_6&gt; &lt;mob0/current_stage_5&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">mob3/current_stage_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MainGame</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mob2/current_stage_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MainGame</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mob1/current_stage_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MainGame</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mob0/current_stage_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MainGame</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/read</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/PREVIOUS_STATE</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/LED</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/TRIGGER</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/CODEWORD_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/CODEWORD_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/CODEWORD_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/CODEWORD_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/CODEWORD_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/CODEWORD_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/CODEWORD_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/CODEWORD_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/key_was_lifted</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/real_codeword_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/real_codeword_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/real_codeword_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/real_codeword_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/real_codeword_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/real_codeword_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/real_codeword_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/real_codeword_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/TRIG_ARR</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/COUNT_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/COUNT_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/COUNT_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/COUNT_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/scan_err</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/scan_code_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/scan_code_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/scan_code_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/scan_code_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/scan_code_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/scan_code_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/scan_code_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/scan_code_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/scan_code_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/scan_code_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PKeyPress/scan_code_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/read</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/PREVIOUS_STATE</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/LED</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/TRIGGER</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/CODEWORD_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/CODEWORD_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/CODEWORD_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/CODEWORD_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/CODEWORD_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/CODEWORD_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/CODEWORD_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/CODEWORD_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/key_was_lifted</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/real_codeword_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/real_codeword_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/real_codeword_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/real_codeword_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/real_codeword_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/real_codeword_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/real_codeword_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/real_codeword_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/TRIG_ARR</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/COUNT_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/COUNT_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/COUNT_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/COUNT_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/scan_err</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/scan_code_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/scan_code_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/scan_code_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/scan_code_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/scan_code_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/scan_code_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/scan_code_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/scan_code_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/scan_code_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/scan_code_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">downKeyPress/scan_code_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainGame</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2697" delta="old" >Unit &lt;<arg fmt="%s" index="1">MainGame</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">rightcollcheck2/ROM/Mrom__varindex0000</arg>&gt;, &lt;<arg fmt="%s" index="3">rightcollcheck1/ROM/Mrom__varindex0000</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">rightcollcheck2/ROM/Mrom__varindex00001</arg>&gt;
+</msg>
+
+<msg type="info" file="Xst" num="2697" delta="old" >Unit &lt;<arg fmt="%s" index="1">MainGame</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">rightcollcheck0/ROM/Mrom__varindex0000</arg>&gt;, &lt;<arg fmt="%s" index="3">leftcollcheck2/ROM/Mrom__varindex0000</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">rightcollcheck0/ROM/Mrom__varindex00001</arg>&gt;
+</msg>
+
+<msg type="info" file="Xst" num="2697" delta="old" >Unit &lt;<arg fmt="%s" index="1">MainGame</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">leftcollcheck1/ROM/Mrom__varindex0000</arg>&gt;, &lt;<arg fmt="%s" index="3">leftcollcheck0/ROM/Mrom__varindex0000</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">leftcollcheck1/ROM/Mrom__varindex00001</arg>&gt;
+</msg>
+
+<msg type="info" file="Xst" num="2697" delta="old" >Unit &lt;<arg fmt="%s" index="1">MainGame</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">ceilingcheck1/ROM/Mrom__varindex0000</arg>&gt;, &lt;<arg fmt="%s" index="3">ceilingcheck0/ROM/Mrom__varindex0000</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">ceilingcheck1/ROM/Mrom__varindex00001</arg>&gt;
+</msg>
+
+<msg type="info" file="Xst" num="2697" delta="old" >Unit &lt;<arg fmt="%s" index="1">MainGame</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">groundcheck1/ROM/Mrom__varindex0000</arg>&gt;, &lt;<arg fmt="%s" index="3">groundcheck0/ROM/Mrom__varindex0000</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">groundcheck1/ROM/Mrom__varindex00001</arg>&gt;
+</msg>
+
+<msg type="info" file="Xst" num="2697" delta="old" >Unit &lt;<arg fmt="%s" index="1">MainGame</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">mob3/ROMG/Mrom__varindex0000</arg>&gt;, &lt;<arg fmt="%s" index="3">mob2/ROMG/Mrom__varindex0000</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">mob3/ROMG/Mrom__varindex00001</arg>&gt;
+</msg>
+
+<msg type="info" file="Xst" num="2697" delta="old" >Unit &lt;<arg fmt="%s" index="1">MainGame</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">mob3/ROMR/Mrom__varindex0000</arg>&gt;, &lt;<arg fmt="%s" index="3">mob2/ROMR/Mrom__varindex0000</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">mob3/ROMR/Mrom__varindex00001</arg>&gt;
+</msg>
+
+<msg type="info" file="Xst" num="2697" delta="old" >Unit &lt;<arg fmt="%s" index="1">MainGame</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">mob1/ROMG/Mrom__varindex0000</arg>&gt;, &lt;<arg fmt="%s" index="3">mob0/ROMG/Mrom__varindex0000</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">mob1/ROMG/Mrom__varindex00001</arg>&gt;
+</msg>
+
+<msg type="info" file="Xst" num="2697" delta="old" >Unit &lt;<arg fmt="%s" index="1">MainGame</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">mob1/ROMR/Mrom__varindex0000</arg>&gt;, &lt;<arg fmt="%s" index="3">mob0/ROMR/Mrom__varindex0000</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">mob1/ROMR/Mrom__varindex00001</arg>&gt;
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">data_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">genrom_4</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">genrom_4</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data_19</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">genrom_4</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">data_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">genrom_3</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;data_15&gt; &lt;data_16&gt; &lt;data_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">data_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">genrom_3</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">23 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;data_2&gt; &lt;data_3&gt; &lt;data_4&gt; &lt;data_5&gt; &lt;data_6&gt; &lt;data_9&gt; &lt;data_10&gt; &lt;data_11&gt; &lt;data_12&gt; &lt;data_13&gt; &lt;data_14&gt; &lt;data_17&gt; &lt;data_18&gt; &lt;data_19&gt; &lt;data_20&gt; &lt;data_21&gt; &lt;data_22&gt; &lt;data_25&gt; &lt;data_26&gt; &lt;data_27&gt; &lt;data_28&gt; &lt;data_29&gt; &lt;data_30&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">data_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">genrom_3</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;data_8&gt; &lt;data_23&gt; &lt;data_24&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">data_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">genrom_4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;data_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">data_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">genrom_4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;data_1&gt; &lt;data_2&gt; &lt;data_3&gt; &lt;data_4&gt; &lt;data_20&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">data_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">genrom_4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;data_22&gt; &lt;data_23&gt; &lt;data_24&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">res_stage_posX_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MainGame</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">StageCode_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MainGame</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">door02/ROM/data_21</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MainGame</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mob3/currentStageCode_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MainGame</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mob3/current_stage_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MainGame</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mob2/currentStageCode_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MainGame</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mob2/current_stage_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MainGame</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mob1/currentStageCode_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MainGame</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mob1/current_stage_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MainGame</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mob0/currentStageCode_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MainGame</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">mob0/current_stage_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">MainGame</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">res_stage_posX_3</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">MainGame</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">res_stage_posX_2</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">MainGame</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">res_stage_posX_0</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">MainGame</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">res_stage_posX_1</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">MainGame</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">res_stage_posX_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MainGame</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;res_stage_posX_1&gt; &lt;res_stage_posX_2&gt; &lt;res_stage_posX_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">door02/ROM/data_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MainGame</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;door01/ROM/data_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">currentStage/ROMG/data_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MainGame</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;currentStage/ROMG/data_12&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">currentStage/ROMG/data_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MainGame</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;currentStage/ROMG/data_19&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">currentStage/ROMG/data_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MainGame</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;currentStage/ROMG/data_17&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">currentStage/ROMG/data_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MainGame</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;currentStage/ROMG/data_12&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">currentStage/ROMG/data_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MainGame</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;currentStage/ROMG/data_19&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">currentStage/ROMG/data_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MainGame</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;currentStage/ROMG/data_17&gt; </arg>
+</msg>
+
+</messages>
+

@@ -1,0 +1,219 @@
+Release 13.4 Map O.87xd (nt64)
+Xilinx Mapping Report File for Design 'MainGame'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off
+-c 100 -o MainGame_map.ncd MainGame.ngd MainGame.pcf 
+Target Device  : xc3s500e
+Target Package : fg320
+Target Speed   : -4
+Mapper Version : spartan3e -- $Revision: 1.55 $
+Mapped Date    : Thu Aug 23 13:13:59 2018
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:   18
+Logic Utilization:
+  Number of Slice Flip Flops:         1,751 out of   9,312   18%
+  Number of 4 input LUTs:             6,266 out of   9,312   67%
+Logic Distribution:
+  Number of occupied Slices:          4,237 out of   4,656   91%
+    Number of Slices containing only related logic:   4,237 out of   4,237 100%
+    Number of Slices containing unrelated logic:          0 out of   4,237   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:       7,894 out of   9,312   84%
+    Number used as logic:             6,266
+    Number used as a route-thru:      1,628
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                  8 out of     232    3%
+  Number of RAMB16s:                     11 out of      20   55%
+  Number of BUFGMUXs:                     6 out of      24   25%
+
+Average Fanout of Non-Clock Nets:                2.57
+
+Peak Memory Usage:  331 MB
+Total REAL time to MAP completion:  7 secs 
+Total CPU time to MAP completion:   7 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:Pack:266 - The function generator mob3/ROMB/Mrom__varindex0000901_6
+   failed to merge with F5 multiplexer mob3/ROMB/Mrom__varindex0000851_5_f5. 
+   There is a conflict for the FXMUX.  The design will exhibit suboptimal
+   timing.
+WARNING:Pack:266 - The function generator mob2/ROMB/Mrom__varindex0000901_6
+   failed to merge with F5 multiplexer mob2/ROMB/Mrom__varindex0000851_5_f5. 
+   There is a conflict for the FXMUX.  The design will exhibit suboptimal
+   timing.
+WARNING:Pack:266 - The function generator mob1/ROMB/Mrom__varindex0000901_6
+   failed to merge with F5 multiplexer mob1/ROMB/Mrom__varindex0000851_5_f5. 
+   There is a conflict for the FXMUX.  The design will exhibit suboptimal
+   timing.
+WARNING:Pack:266 - The function generator mob0/ROMB/Mrom__varindex0000901_6
+   failed to merge with F5 multiplexer mob0/ROMB/Mrom__varindex0000851_5_f5. 
+   There is a conflict for the FXMUX.  The design will exhibit suboptimal
+   timing.
+WARNING:Pack:266 - The function generator
+   currentStage/ROMG/Mrom__varindex0000681_3 failed to merge with F5 multiplexer
+   currentStage/ROMG/Mrom__varindex00001101_2_f5.  There is a conflict for the
+   FXMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator
+   currentStage/ROMG/Mrom__varindex0000441_3 failed to merge with F5 multiplexer
+   currentStage/ROMG/Mrom__varindex00001331_2_f51_f5.  There is a conflict for
+   the FXMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator
+   currentStage/ROMG/Mrom__varindex0000201_3 failed to merge with F5 multiplexer
+   currentStage/ROMG/Mrom__varindex00001631_2_f5.  There is a conflict for the
+   FXMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator
+   currentStage/ROMG/Mrom__varindex0000441_3 failed to merge with F5 multiplexer
+   currentStage/ROMG/Mrom__varindex00001391_2_f5.  There is a conflict for the
+   FXMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator mob0/ROM/Mrom__varindex00005 failed to
+   merge with F5 multiplexer mob2/ROM/Mrom__varindex00005_f6/MUXF5.I1.  There is
+   a conflict for the GYMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator mob0/ROM/Mrom__varindex00005 failed to
+   merge with F5 multiplexer mob0/ROM/Mrom__varindex00005_f6/MUXF5.I1.  There is
+   a conflict for the GYMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator mob0/ROM/Mrom__varindex00005 failed to
+   merge with F5 multiplexer mob2/ROM/Mrom__varindex00001_f6/MUXF5.I1.  There is
+   a conflict for the GYMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator mob0/ROM/Mrom__varindex00005 failed to
+   merge with F5 multiplexer mob0/ROM/Mrom__varindex00001_f6/MUXF5.I1.  There is
+   a conflict for the GYMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator mob0/ROM/Mrom__varindex00005 failed to
+   merge with F5 multiplexer mob1/ROM/Mrom__varindex00004_f6/MUXF5.I1.  There is
+   a conflict for the GYMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator mob0/ROM/Mrom__varindex00005 failed to
+   merge with F5 multiplexer mob0/ROM/Mrom__varindex00004_f6/MUXF5.I1.  There is
+   a conflict for the GYMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator mob2/ROM/Mrom__varindex00009 failed to
+   merge with F5 multiplexer mob3/ROM/Mrom__varindex00009_f6/MUXF5.I1.  There is
+   a conflict for the GYMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator mob2/ROM/Mrom__varindex00009 failed to
+   merge with F5 multiplexer mob2/ROM/Mrom__varindex00009_f6/MUXF5.I1.  There is
+   a conflict for the GYMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator mob0/ROM/Mrom__varindex00009 failed to
+   merge with F5 multiplexer mob1/ROM/Mrom__varindex00009_f6/MUXF5.I1.  There is
+   a conflict for the GYMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator mob0/ROM/Mrom__varindex00009 failed to
+   merge with F5 multiplexer mob0/ROM/Mrom__varindex00009_f6/MUXF5.I1.  There is
+   a conflict for the GYMUX.  The design will exhibit suboptimal timing.
+
+Section 3 - Informational
+-------------------------
+INFO:MapLib:562 - No environment variables are currently set.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   2 block(s) optimized away
+
+Section 5 - Removed Logic
+-------------------------
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| PS2_CLK                            | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| PS2_DATA                           | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| clk                                | IBUF             | INPUT     | LVCMOS33             |       |          |      |              |          | 0 / 0    |
+| vga_blue                           | IOB              | OUTPUT    | LVTTL                |       | 8        | FAST |              |          | 0 / 0    |
+| vga_green                          | IOB              | OUTPUT    | LVTTL                |       | 8        | FAST |              |          | 0 / 0    |
+| vga_hsync                          | IOB              | OUTPUT    | LVTTL                |       | 8        | FAST |              |          | 0 / 0    |
+| vga_red                            | IOB              | OUTPUT    | LVTTL                |       | 8        | FAST |              |          | 0 / 0    |
+| vga_vsync                          | IOB              | OUTPUT    | LVTTL                |       | 8        | FAST |              |          | 0 / 0    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+No control set information for this architecture.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

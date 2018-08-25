@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# PlanAhead v13.4 (64-bit)
+# Build 157570 by hdbuild on Fri Dec 16 13:06:31 MST 2011
+# Start of session at: Tue Aug 14 19:13:47 2018
+# Process ID: 5260
+# Log file: C:/Users/Invitado/Desktop/Super Lab Del Futuro Hoy/ProyectoJuego/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/Invitado/Desktop/Super Lab Del Futuro Hoy/ProyectoJuego/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common-78] Attempting to get a license: PlanAhead
+INFO: [Common-82] Got a license: PlanAhead
+INFO: [Device-25] Loading parts and site information from C:/Xilinx/13.4/ISE_DS/PlanAhead\parts\arch.xmlParsing RTL primitives file [C:/Xilinx/13.4/ISE_DS/PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/13.4/ISE_DS/PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml]
+start_gui
+source {C:/Users/Invitado/Desktop/Super Lab Del Futuro Hoy/ProyectoJuego/pa.fromNetlist.tcl}
+# create_project -name ProyectoJuego -dir "C:/Users/Invitado/Desktop/Super Lab Del Futuro Hoy/ProyectoJuego/planAhead_run_3" -part xc3s500efg320-4
+ERROR: [Common-53] User Exception: Project already exists on disk, please use '-force' option to overwrite: 
+     C:\Users\Invitado\Desktop\Super Lab Del Futuro Hoy\ProyectoJuego\planAhead_run_3\ProyectoJuego.ppr
+     C:\Users\Invitado\Desktop\Super Lab Del Futuro Hoy\ProyectoJuego\planAhead_run_3\ProyectoJuego.data
+exit
+stop_gui
+INFO: [PlanAhead-261] Exiting PlanAhead...
+INFO: [Common-83] Releasing license: PlanAhead

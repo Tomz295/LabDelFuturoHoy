@@ -1,0 +1,64 @@
+
+****** PlanAhead v13.4 (64-bit)
+  **** Build 157570 by hdbuild on Fri Dec 16 13:06:31 MST 2011
+    ** Copyright 1986-1999, 2001-2011 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common-78] Attempting to get a license: PlanAhead
+INFO: [Common-82] Got a license: PlanAhead
+INFO: [Device-25] Loading parts and site information from C:/Xilinx/13.4/ISE_DS/PlanAhead\parts\arch.xmlParsing RTL primitives file [C:/Xilinx/13.4/ISE_DS/PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/13.4/ISE_DS/PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml]
+start_gui
+starting gui ...
+source {C:/Users/Invitado/Desktop/Super Lab Del Futuro Hoy/ProyectoJuego/pa.fromNetlist.tcl}
+# create_project -name ProyectoJuego -dir "C:/Users/Invitado/Desktop/Super Lab Del Futuro Hoy/ProyectoJuego/planAhead_run_3" -part xc3s500efg320-4
+Parsing template File [C:/Xilinx/13.4/ISE_DS/ISE\data\projnav\templates\verilog.xml].
+Finished parsing template File [C:/Xilinx/13.4/ISE_DS/ISE\data\projnav\templates\verilog.xml].
+Parsing template File [C:/Xilinx/13.4/ISE_DS/ISE\data\projnav\templates\vhdl.xml].
+Finished parsing template File [C:/Xilinx/13.4/ISE_DS/ISE\data\projnav\templates\vhdl.xml].
+Parsing template File [C:/Xilinx/13.4/ISE_DS/ISE\data\projnav\templates\ucf.xml].
+Finished parsing template File [C:/Xilinx/13.4/ISE_DS/ISE\data\projnav\templates\ucf.xml].
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/Invitado/Desktop/Super Lab Del Futuro Hoy/ProyectoJuego/MainGame.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/Invitado/Desktop/Super Lab Del Futuro Hoy/ProyectoJuego} }
+# set_property target_constrs_file "MainUCF.ucf" [current_fileset -constrset]
+Adding file 'C:\Users\Invitado\Desktop\Super Lab Del Futuro Hoy\ProyectoJuego\MainUCF.ucf' to fileset 'constrs_1'
+# add_files [list {MainUCF.ucf}] -fileset [get_property constrset [current_run]]
+# open_netlist_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to part: xc3s500efg320-4
+Release 13.4 - ngc2edif O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design MainGame.ngc ...
+WARNING:NetListWriters:298 - No output is written to MainGame.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file MainGame.edif ...
+ngc2edif: Total memory usage is 91564 kilobytes
+
+Parsing EDIF File [.\planAhead_run_3\ProyectoJuego.data\cache\MainGame_ngc_9f5c8f0c.edif]
+Finished Parsing EDIF File [.\planAhead_run_3\ProyectoJuego.data\cache\MainGame_ngc_9f5c8f0c.edif]
+INFO: [PlanAhead-430] Reading macro library C:/Xilinx/13.4/ISE_DS/PlanAhead\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/13.4/ISE_DS/PlanAhead\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/13.4/ISE_DS/PlanAhead\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+WARNING: [Netlist-43] Netlist 'MainGame' is not ideal for floorplanning, since the cellview 'MainGame' defined in file 'MainGame.ngc' contains large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+Loading clock regions from C:/Xilinx/13.4/ISE_DS/PlanAhead\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/13.4/ISE_DS/PlanAhead\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from C:/Xilinx/13.4/ISE_DS/PlanAhead\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/Package.xml
+Loading io standards from C:/Xilinx/13.4/ISE_DS/PlanAhead\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device-19] Loading pkg sso from C:/Xilinx/13.4/ISE_DS/PlanAhead\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/13.4/ISE_DS/PlanAhead\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing-77] Reading timing library C:/Xilinx/13.4/ISE_DS/PlanAhead\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing-34] Done reading timing library C:/Xilinx/13.4/ISE_DS/PlanAhead\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:\Users\Invitado\Desktop\Super Lab Del Futuro Hoy\ProyectoJuego\MainUCF.ucf]
+Finished Parsing UCF File [C:\Users\Invitado\Desktop\Super Lab Del Futuro Hoy\ProyectoJuego\MainUCF.ucf]
+INFO: [PlanAhead-566] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  BUFGP => BUFGP (HD_IBUFG, HD_BUFG): 1 instances
+open_netlist_design: Time (s): 8.207w.  Memory (MB): 661.383p 141.426g
+exit
+stop_gui
+INFO: [PlanAhead-261] Exiting PlanAhead...
+INFO: [Common-83] Releasing license: PlanAhead

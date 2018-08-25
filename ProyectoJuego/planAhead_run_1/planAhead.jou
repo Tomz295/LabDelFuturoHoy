@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# PlanAhead v13.4 (64-bit)
+# Build 157570 by hdbuild on Fri Dec 16 13:06:31 MST 2011
+# Start of session at: Tue Aug 14 19:13:37 2018
+# Process ID: 5824
+# Log file: C:/Users/Invitado/Desktop/Super Lab Del Futuro Hoy/ProyectoJuego/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Invitado/Desktop/Super Lab Del Futuro Hoy/ProyectoJuego/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Invitado/Desktop/Super Lab Del Futuro Hoy/ProyectoJuego/pa.fromNetlist.tcl}
+exit
+stop_gui

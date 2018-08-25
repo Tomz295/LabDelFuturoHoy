@@ -1,0 +1,477 @@
+Release 13.4 - xst O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Reading design: RomTest.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "RomTest.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "RomTest"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : RomTest
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "../../../Downloads/readMem.v" in library work
+Compiling verilog file "../ProyectoJuego/hvsync_generator.v" in library work
+Module <readMem> compiled
+Compiling verilog file "../ProyectoJuego/draw_rectangle.v" in library work
+Module <hvsync_generator> compiled
+Compiling verilog file "../../../Downloads/RomTest.v" in library work
+Module <draw_rectangle> compiled
+Module <RomTest> compiled
+No errors in compilation
+Analysis of file <"RomTest.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <RomTest> in library <work>.
+
+Analyzing hierarchy for module <hvsync_generator> in library <work>.
+
+Analyzing hierarchy for module <readMem> in library <work>.
+
+Analyzing hierarchy for module <draw_rectangle> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <RomTest>.
+Module <RomTest> is correct for synthesis.
+ 
+Analyzing module <hvsync_generator> in library <work>.
+Module <hvsync_generator> is correct for synthesis.
+ 
+Analyzing module <readMem> in library <work>.
+INFO:Xst:2546 - "../../../Downloads/readMem.v" line 32: reading initialization file "MemROM.mem".
+INFO:Xst:2546 - "../../../Downloads/readMem.v" line 38: reading initialization file "MemROM.mem".
+Module <readMem> is correct for synthesis.
+ 
+Analyzing module <draw_rectangle> in library <work>.
+Module <draw_rectangle> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <test_memory<0>> in unit <readMem> has a constant value of 000000000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <test_memory<1>> in unit <readMem> has a constant value of 000000000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <test_memory<2>> in unit <readMem> has a constant value of 000000000001 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <test_memory<3>> in unit <readMem> has a constant value of 000000000001 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <hvsync_generator>.
+    Related source file is "../ProyectoJuego/hvsync_generator.v".
+    Found 10-bit up counter for signal <CounterX>.
+    Found 9-bit up counter for signal <CounterY>.
+    Found 1-bit register for signal <inDisplayArea>.
+    Found 9-bit comparator less for signal <inDisplayArea$cmp_lt0000> created at line 32.
+    Found 1-bit register for signal <vga_HS>.
+    Found 1-bit register for signal <vga_VS>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   3 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <hvsync_generator> synthesized.
+
+
+Synthesizing Unit <readMem>.
+    Related source file is "../../../Downloads/readMem.v".
+WARNING:Xst:646 - Signal <test_memory> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <readMem> synthesized.
+
+
+Synthesizing Unit <draw_rectangle>.
+    Related source file is "../ProyectoJuego/draw_rectangle.v".
+    Found 10-bit comparator greatequal for signal <drawBool$cmp_ge0000> created at line 32.
+    Found 9-bit comparator greatequal for signal <drawBool$cmp_ge0001> created at line 32.
+    Found 10-bit comparator lessequal for signal <drawBool$cmp_le0000> created at line 32.
+    Found 9-bit comparator lessequal for signal <drawBool$cmp_le0001> created at line 32.
+    Summary:
+	inferred   4 Comparator(s).
+Unit <draw_rectangle> synthesized.
+
+
+Synthesizing Unit <RomTest>.
+    Related source file is "../../../Downloads/RomTest.v".
+WARNING:Xst:647 - Input <PS2_CLK> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PS2_DATA> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <inDisplayArea> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <ROMvalue> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit register for signal <vga_blue>.
+    Found 1-bit register for signal <vga_green>.
+    Found 1-bit register for signal <vga_red>.
+    Found 1-bit register for signal <clk_25>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <RomTest> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 10-bit up counter                                     : 1
+ 9-bit up counter                                      : 1
+# Registers                                            : 7
+ 1-bit register                                        : 7
+# Comparators                                          : 5
+ 10-bit comparator greatequal                          : 1
+ 10-bit comparator lessequal                           : 1
+ 9-bit comparator greatequal                           : 1
+ 9-bit comparator less                                 : 1
+ 9-bit comparator lessequal                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <Memory> is unconnected in block <RomTest>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Memory2> is unconnected in block <RomTest>.
+   It will be removed from the design.
+WARNING:Xst:1710 - FF/Latch <vga_green> (without init value) has a constant value of 0 in block <RomTest>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 10-bit up counter                                     : 1
+ 9-bit up counter                                      : 1
+# Registers                                            : 7
+ Flip-Flops                                            : 7
+# Comparators                                          : 5
+ 10-bit comparator greatequal                          : 1
+ 10-bit comparator lessequal                           : 1
+ 9-bit comparator greatequal                           : 1
+ 9-bit comparator less                                 : 1
+ 9-bit comparator lessequal                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <vga_green> (without init value) has a constant value of 0 in block <RomTest>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <RomTest> ...
+
+Optimizing unit <hvsync_generator> ...
+WARNING:Xst:2677 - Node <syncgen/inDisplayArea> of sequential type is unconnected in block <RomTest>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block RomTest, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 24
+ Flip-Flops                                            : 24
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : RomTest.ngr
+Top Level Output File Name         : RomTest
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 8
+
+Cell Usage :
+# BELS                             : 81
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 17
+#      LUT2                        : 1
+#      LUT3                        : 3
+#      LUT3_L                      : 2
+#      LUT4                        : 13
+#      LUT4_L                      : 1
+#      MUXCY                       : 17
+#      MUXF5                       : 2
+#      VCC                         : 1
+#      XORCY                       : 19
+# FlipFlops/Latches                : 24
+#      FD                          : 2
+#      FDE                         : 9
+#      FDR                         : 13
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 5
+#      OBUF                        : 5
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       22  out of   4656     0%  
+ Number of Slice Flip Flops:             22  out of   9312     0%  
+ Number of 4 input LUTs:                 41  out of   9312     0%  
+ Number of IOs:                           8
+ Number of bonded IOBs:                   6  out of    232     2%  
+    IOB Flip Flops:                       2
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 3     |
+clk_251                            | BUFG                   | 21    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 5.156ns (Maximum Frequency: 193.949MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 5.407ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 1.949ns (frequency: 513.084MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.949ns (Levels of Logic = 0)
+  Source:            clk_25 (FF)
+  Destination:       clk_25 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: clk_25 to clk_25
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.591   0.447  clk_25 (clk_251)
+     FDR:R                     0.911          clk_25
+    ----------------------------------------
+    Total                      1.949ns (1.502ns logic, 0.447ns route)
+                                       (77.1% logic, 22.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_251'
+  Clock period: 5.156ns (frequency: 193.949MHz)
+  Total number of paths / destination ports: 305 / 41
+-------------------------------------------------------------------------
+Delay:               5.156ns (Levels of Logic = 2)
+  Source:            syncgen/CounterX_2 (FF)
+  Destination:       syncgen/CounterX_9 (FF)
+  Source Clock:      clk_251 rising
+  Destination Clock: clk_251 rising
+
+  Data Path: syncgen/CounterX_2 to syncgen/CounterX_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.591   0.706  syncgen/CounterX_2 (syncgen/CounterX_2)
+     LUT4:I0->O            1   0.704   0.455  syncgen/inDisplayArea_mux000034 (syncgen/inDisplayArea_mux000034)
+     LUT4:I2->O           19   0.704   1.085  syncgen/inDisplayArea_mux0000321 (syncgen/CounterXmaxed)
+     FDR:R                     0.911          syncgen/CounterX_0
+    ----------------------------------------
+    Total                      5.156ns (2.910ns logic, 2.246ns route)
+                                       (56.4% logic, 43.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              4.283ns (Levels of Logic = 1)
+  Source:            vga_blue (FF)
+  Destination:       vga_blue (PAD)
+  Source Clock:      clk rising
+
+  Data Path: vga_blue to vga_blue
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.591   0.420  vga_blue (vga_blue_OBUF)
+     OBUF:I->O                 3.272          vga_blue_OBUF (vga_blue)
+    ----------------------------------------
+    Total                      4.283ns (3.863ns logic, 0.420ns route)
+                                       (90.2% logic, 9.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_251'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              5.407ns (Levels of Logic = 2)
+  Source:            syncgen/vga_HS (FF)
+  Destination:       vga_hsync (PAD)
+  Source Clock:      clk_251 rising
+
+  Data Path: syncgen/vga_HS to vga_hsync
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.591   0.420  syncgen/vga_HS (syncgen/vga_HS)
+     INV:I->O              1   0.704   0.420  syncgen/vga_h_sync1_INV_0 (vga_hsync_OBUF)
+     OBUF:I->O                 3.272          vga_hsync_OBUF (vga_hsync)
+    ----------------------------------------
+    Total                      5.407ns (4.567ns logic, 0.840ns route)
+                                       (84.5% logic, 15.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.84 secs
+ 
+--> 
+
+Total memory usage is 253488 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   18 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
+

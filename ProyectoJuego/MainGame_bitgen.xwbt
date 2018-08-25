@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Invitado\Desktop\Super Lab Del Futuro Hoy\ProyectoJuego\MainGame.ncd
+OUTFILE=C:\Users\Invitado\Desktop\Super Lab Del Futuro Hoy\ProyectoJuego\MainGame.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\Invitado\Desktop\Super Lab Del Futuro Hoy\ProyectoJuego
+LICENSE=WebPack
+USER_INFO=211543301_0_0_014

@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "C:/Users/Invitado/Desktop/Super Lab Del Futuro Hoy/weatest123/RomTest.xst" -ofn "C:/Users/Invitado/Desktop/Super Lab Del Futuro Hoy/weatest123/RomTest.syr" 
+xst -intstyle ise -ifn "C:/Users/Invitado/Desktop/Super Lab Del Futuro Hoy/weatest123/RomTest.xst" -ofn "C:/Users/Invitado/Desktop/Super Lab Del Futuro Hoy/weatest123/RomTest.syr" 
+xst -intstyle ise -ifn "C:/Users/Invitado/Desktop/Super Lab Del Futuro Hoy/weatest123/RomTest.xst" -ofn "C:/Users/Invitado/Desktop/Super Lab Del Futuro Hoy/weatest123/RomTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Invitado/Desktop/Super Lab Del Futuro Hoy/ProyectoJuego/MainUCF.ucf" -p xc3s500e-fg320-4 "RomTest.ngc" RomTest.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o RomTest_map.ncd RomTest.ngd RomTest.pcf 
+par -w -intstyle ise -ol high -t 1 RomTest_map.ncd RomTest.ncd RomTest.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml RomTest.twx RomTest.ncd -o RomTest.twr RomTest.pcf 
+bitgen -intstyle ise -f RomTest.ut RomTest.ncd 
+xst -intstyle ise -ifn "C:/Users/Invitado/Desktop/Super Lab Del Futuro Hoy/weatest123/RomTest.xst" -ofn "C:/Users/Invitado/Desktop/Super Lab Del Futuro Hoy/weatest123/RomTest.syr" 
+xst -intstyle ise -ifn "C:/Users/Invitado/Desktop/Super Lab Del Futuro Hoy/weatest123/RomTest.xst" -ofn "C:/Users/Invitado/Desktop/Super Lab Del Futuro Hoy/weatest123/RomTest.syr" 
+xst -intstyle ise -ifn "C:/Users/Invitado/Desktop/Super Lab Del Futuro Hoy/weatest123/RomTest.xst" -ofn "C:/Users/Invitado/Desktop/Super Lab Del Futuro Hoy/weatest123/RomTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Invitado/Desktop/Super Lab Del Futuro Hoy/ProyectoJuego/MainUCF.ucf" -p xc3s500e-fg320-4 "RomTest.ngc" RomTest.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o RomTest_map.ncd RomTest.ngd RomTest.pcf 
+par -w -intstyle ise -ol high -t 1 RomTest_map.ncd RomTest.ncd RomTest.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml RomTest.twx RomTest.ncd -o RomTest.twr RomTest.pcf 
+bitgen -intstyle ise -f RomTest.ut RomTest.ncd 
